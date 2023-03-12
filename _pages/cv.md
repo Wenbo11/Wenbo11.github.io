@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # About me
-I am a fourth-year Ph.D. student at Georgia Tech and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on applying Machine Learning & Optimization to large-scale real-world planning problems in energy systems ([Risk-Aware Market Clearing](https://ramc.isye.gatech.edu/)), supply chains (Data-Driven Service Network Design), and ride-hailing systems (Reinforcement Learning for Vehicle Relocation).
+I am a fourth-year Ph.D. student at Georgia Tech and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on applying Machine Learning & Optimization to large-scale real-world planning problems in power systems ([Risk-Aware Market Clearing](https://ramc.isye.gatech.edu/)), supply chains (Data-Driven Service Network Design), and ride-hailing systems (Reinforcement Learning for Vehicle Relocation).
 
 # Education
 * Ph.D. in Machine Learning, Georgia Institute of Technology, 2024 (expected)
@@ -45,19 +45,19 @@ I am a fourth-year Ph.D. student at Georgia Tech and a research assistant at NSF
 
 ## Publications:
 
-[1] **Wenbo Chen**, Seonho Park, Mathieu Tanneau, Pascal Van Hentenryck. Learning optimization proxies for large-scale Security-Constrained Economic Dispatch. PSCC-EPSR, 2022. [[Paper](https://www.sciencedirect.com/science/article/pii/S0378779622006629)]
+[1] **Wenbo Chen**, Seonho Park, Mathieu Tanneau, Pascal Van Hentenryck. Learning Optimization Proxies for Large-scale Security-Constrained Economic Dispatch. PSCC-EPSR, 2022. [[Paper](https://www.sciencedirect.com/science/article/pii/S0378779622006629)]
 
 [2] Enpeng Yuan, **Wenbo Chen**, Pascal Van Hentenryck. Reinforcement Learning from Optimization Proxy for Ride-Hailing Vehicle Relocation. Journal of Artificial Intelligence Research, 2022. [[Paper](https://www.jair.org/index.php/jair/article/view/13794)]
 
-[3] Haoran Sun, **Wenbo Chen**, Hui Li, Le Song. Improving learning to branch via reinforcement learning. Learning Meets Combinatorial Optimization Workshop, NeurIPS, 2020. 
+[3] Haoran Sun, **Wenbo Chen**, Hui Li, Le Song. Improving Learning to Branch via Reinforcement Learning. Learning Meets Combinatorial Optimization Workshop, NeurIPS, 2020. 
 [[Paper](https://openreview.net/pdf?id=z4D7-PTxTb)]
 
 [4] **Wenbo Chen**, Anni Zhou, Pan Zhou, Liang Gao, Shouling Ji, and Dapeng Oliver Wu.  Privacy-Preserving Online Learning Approach for Incentive-based Demand Response in Smart Grid. IEEE System Journal, 2019, [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8642292&tag=1)]
 
-[5] Pan Zhou, **Wenbo Chen**, Shouling Ji, Hao Jiang, Li Yu and Dapeng Oliver Wu. rivacy-Preserving On-line Task Allocation in Edge-Computing-Enabled Massive Crowdsensing. IEEE Internet of Things Journal, 2019. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8662620)]
+[5] Pan Zhou, **Wenbo Chen**, Shouling Ji, Hao Jiang, Li Yu and Dapeng Oliver Wu. Privacy-Preserving Online Task Allocation in Edge-Computing-Enabled Massive Crowdsensing. IEEE Internet of Things Journal, 2019. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8662620)]
 
 [6] **Wenbo Chen**, Pan Zhou, Shaokang Dong, Shimin Gong, Menglan Hu, Kehao Wang, and Dapeng Oliver
-Wu. ree-based Contextual Learning for Online Job or Candidate Recommendation with Big Data Support
+Wu. Tree-based Contextual Learning for Online Job or Candidate Recommendation with Big Data Support
 in Professional Social Networks. IEEE ACCESS, 2018. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8552383)]
   
 <!-- Teaching
