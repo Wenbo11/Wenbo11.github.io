@@ -31,16 +31,16 @@ I am a fourth-year Ph.D. student at Georgia Tech and a research assistant at NSF
 
 [1] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible, Self-Supervised Optimization Proxies for Economic Dispatch Problems.
 
-[1] **Wenbo Chen**, Reem Khir and Pascal Van Hentenryck. Two-Stage Learning For the Flexible Job Shop Scheduling Problem.
+[2] **Wenbo Chen**, Reem Khir and Pascal Van Hentenryck. Two-Stage Learning For the Flexible Job Shop Scheduling Problem.
 [[Paper](https://arxiv.org/abs/2301.09703)]
 
-[2] Seonho Park, **Wenbo Chen**, Terrence W.K. Mak and Pascal Van Hentenryck. Compact Optimization Learning for AC Optimal Power Flow. 
+[3] Seonho Park, **Wenbo Chen**, Terrence W.K. Mak and Pascal Van Hentenryck. Compact Optimization Learning for AC Optimal Power Flow. 
 [[Paper](https://arxiv.org/pdf/2301.08840.pdf)], submitted to IEEE Transactions on Power Systems.
 
-[3] Seonho Park, **Wenbo Chen**, Dahye Han, Mathieu Tanneau, Pascal Van Hentenryck. Confidence-Aware Graph Neural Networks for Learning Reliability Assessment Commitments. 
+[4] Seonho Park, **Wenbo Chen**, Dahye Han, Mathieu Tanneau, Pascal Van Hentenryck. Confidence-Aware Graph Neural Networks for Learning Reliability Assessment Commitments. 
 [[Paper](https://arxiv.org/pdf/2211.15755.pdf)], Major revision of IEEE Transactions on Power Systems.
 
-[4] Oliver Stover, Pranav Karve, Sankaran Mahadevan, **Wenbo Chen**, Haoruo Zhao, Mathieu Tanneau, Pascal Van Hentenryck. Just-In-Time Learning for Operational Risk Assessment in Power Grids. 
+[5] Oliver Stover, Pranav Karve, Sankaran Mahadevan, **Wenbo Chen**, Haoruo Zhao, Mathieu Tanneau, Pascal Van Hentenryck. Just-In-Time Learning for Operational Risk Assessment in Power Grids. 
 [[Paper](https://arxiv.org/pdf/2209.12762.pdf)], submitted to IEEE Transactions on Power Systems.
 
 ## Publications:
@@ -59,7 +59,7 @@ I am a fourth-year Ph.D. student at Georgia Tech and a research assistant at NSF
 [6] **Wenbo Chen**, Pan Zhou, Shaokang Dong, Shimin Gong, Menglan Hu, Kehao Wang, and Dapeng Oliver
 Wu. Tree-based Contextual Learning for Online Job or Candidate Recommendation with Big Data Support
 in Professional Social Networks. IEEE ACCESS, 2018. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8552383)]
-  
+
 <!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
