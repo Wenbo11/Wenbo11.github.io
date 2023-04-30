@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # About me
-I am a fourth-year Machine Learning Ph.D. student in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on fusing **Machine Learning** and **Mathematical Optimization** into large-scale, intelligent systems with applications in energy systems ([Risk-Aware Market Clearing](https://ramc.isye.gatech.edu/)), supply chains (Data-Driven Service Network Design) and ride-hailing systems (Reinforcement Learning for Vehicle Relocation). The research methodologies are two-fold:
+I am a fourth-year Machine Learning Ph.D. student in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on fusing **Machine Learning** and **Mathematical Optimization** into large-scale, intelligent systems with applications in energy systems ([Risk-Aware Market Clearing](https://ramc.isye.gatech.edu/)), supply chains (Data-Driven Service Network Design) and ride-hailing systems (Reinforcement Learning for Vehicle Relocation). The research methodologies are following:
 * **Learning Optimization Proxy**: Learning ML surrogate for computationally expensive optimization models
 * **Learning to Optimize**: Integrate ML and optimization solvers to accelerate optimization solving
 * **End-to-end learning**: Design efficient and scalable differentiable optimization layers for end-to-end optimization learning
@@ -41,7 +41,7 @@ I am a fourth-year Machine Learning Ph.D. student in the H. Milton Stewart Schoo
 # Publication
 ## Pre-prints and working papers:
 
-[11] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible, Self-Supervised Optimization Proxies for Economic Dispatch Problems. [[Paper](https://arxiv.org/abs/2304.11726)], submitted to IEEE Transactions on Power Systems.
+[11] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch. [[Paper](https://arxiv.org/abs/2304.11726)], submitted to IEEE Transactions on Power Systems.
 
 [10] **Wenbo Chen**, Reem Khir and Pascal Van Hentenryck. Two-Stage Learning For the Flexible Job Shop Scheduling Problem.
 [[Paper](https://arxiv.org/abs/2301.09703)]
