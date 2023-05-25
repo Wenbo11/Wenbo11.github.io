@@ -15,7 +15,7 @@ I am a fourth-year Machine Learning Ph.D. student in the H. Milton Stewart Schoo
 * **Learning to Optimize**: Integrate ML and optimization solvers to accelerate optimization solving
 * **End-to-end learning**: Design efficient and scalable differentiable optimization layers for end-to-end optimization learning
 
-My research goal is to design reliable, efficient, and scalable decision-making solutions for systems at a massive scale driven by societal challenges in energy, logistics, and supply chains.
+My research goal is to design **reliable**, **efficient**, and **scalable** decision-making solutions for systems at a massive scale driven by societal challenges in energy, logistics, and supply chains.
 
 # Education
 * Ph.D. in Machine Learning, Georgia Institute of Technology, 2024 (expected)
