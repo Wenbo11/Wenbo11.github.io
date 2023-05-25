@@ -13,7 +13,8 @@ redirect_from:
 I am a fourth-year Machine Learning Ph.D. student in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on fusing **Machine Learning** and **Mathematical Optimization** into large-scale, intelligent systems with applications in energy systems ([Risk-Aware Market Clearing](https://ramc.isye.gatech.edu/)), supply chains (Data-Driven Service Network Design) and ride-hailing systems (Reinforcement Learning for Vehicle Relocation). The research methodologies are the following:
 * **Learning Optimization Proxy**: Learning ML surrogate for computationally expensive optimization models
 * **Learning to Optimize**: Integrate ML and optimization solvers to accelerate optimization solving
-* **End-to-end learning**: Design efficient and scalable differentiable optimization layers for end-to-end optimization learning
+* **Differentiable Programming**: Design efficient and scalable differentiable optimization layers for end-to-end optimization learning
+* **Reliable Machine Learning**: Provide formal guarantees of machine learning models by neural network verification, uncertainty quantification, and fast feasibility restoration.
 
 My research goal is to design **reliable**, **efficient**, and **scalable** decision-making solutions for systems at a massive scale driven by societal challenges in energy, logistics, and supply chains.
 
