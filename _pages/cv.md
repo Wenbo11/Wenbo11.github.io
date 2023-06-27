@@ -29,10 +29,6 @@ My research goal is to design **reliable**, **efficient**, and **scalable** deci
   * Service: Hosting AI4OPT student ML methodology reading group & Mentoring junior Ph.D. students and undergraduates.
 * Jan 2023 - Present: Research Intern in [Kinaxis](https://www.kinaxis.com/en)
   * Developing learning-augmented optimization solver for [rapid response](https://www.kinaxis.com/en/solutions/platform?utm_source=google&utm_medium=ppc&utm_campaign=7015Y000003sEekQAE&utm_term=131899310774&utm_content=project-authority&gclid=EAIaIQobChMIkvuv0PLw_QIVkgKtBh1rMgeyEAAYASAAEgJF5_D_BwE) (Kinaxis core product) in the supply chain planning
-<!-- * Aug 2022 - Present: Research Assistant for Industrial Collaborator in [UPS](https://www.ups.com/us/en/global.page)
-  * Developed symmetry-breaking tactical load planning model to generate consistent load plan for operators,
-  * Developed learning optimizaiton proxies for UPS tactical load planning problem,
-  * Learning optimizaiton proxies generates near-optimal and feasible solutions with orders of magnitude faster than [Gurobi](https://www.gurobi.com/). -->
 * Jan 2021 - May 2023: Research Assistant for Industrial Collaborator in [MISO](https://www.misoenergy.org/) [5][7][8][9][11]
   * Proposed the first ML surrogate to **large-scale security-constrained economic dispatch** problem on [RTE](https://www.rte-france.com/) system with 6,708 buses in the MISO pipeline. The proposed proxies produce the optimal dispatches with relative errors 0.6% within milliseconds [5].
   * Proposed end-to-end, **self-supervised** ML surrogate for DC optimal power flow on up to **30,000** buses system (the largest open-sourced system) with **feasibility guarantee**. It achieves **5 orders of magnitude faster** than Gurobi (the fastest commercial solver) with the optimality gap less than **0.5%** [11].
