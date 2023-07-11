@@ -39,8 +39,10 @@ My research goal is to design **reliable**, **efficient**, and **scalable** deci
   
 # Publication
 ## Pre-prints and working papers:
+[12] Ritesh Ojha*, **Wenbo Chen***, Hanyu Zhang, Reem Khir, Alan Erera and Pascal Van Hentenryck. Optimization-based Learning for Load Plan Modification in Service Networks. [[Paper](https://arxiv.org/pdf/2307.04050.pdf)], submitted to Transportation Science.
+***co-first author**
 
-[11] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch. [[Paper](https://arxiv.org/abs/2304.11726)], submitted to IEEE Transactions on Power Systems.
+[11] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch. [[Paper](https://arxiv.org/abs/2304.11726)], under revision of IEEE Transactions on Power Systems.
 
 [10] **Wenbo Chen**, Reem Khir and Pascal Van Hentenryck. Two-Stage Learning For the Flexible Job Shop Scheduling Problem.
 [[Paper](https://arxiv.org/abs/2301.09703)]
