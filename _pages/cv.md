@@ -50,13 +50,12 @@ My research goal is to design **reliable**, **efficient**, and **scalable** deci
 [9] Seonho Park, **Wenbo Chen**, Terrence W.K. Mak and Pascal Van Hentenryck. Compact Optimization Learning for AC Optimal Power Flow. 
 [[Paper](https://arxiv.org/pdf/2301.08840.pdf)], under revision of IEEE Transactions on Power Systems.
 
-[8] Seonho Park, **Wenbo Chen**, Dahye Han, Mathieu Tanneau, Pascal Van Hentenryck. Confidence-Aware Graph Neural Networks for Learning Reliability Assessment Commitments. 
-[[Paper](https://arxiv.org/pdf/2211.15755.pdf)], under revision of IEEE Transactions on Power Systems.
-
-[7] Oliver Stover, Pranav Karve, Sankaran Mahadevan, **Wenbo Chen**, Haoruo Zhao, Mathieu Tanneau, Pascal Van Hentenryck. Just-In-Time Learning for Operational Risk Assessment in Power Grids. 
+[8] Oliver Stover, Pranav Karve, Sankaran Mahadevan, **Wenbo Chen**, Haoruo Zhao, Mathieu Tanneau, Pascal Van Hentenryck. Just-In-Time Learning for Operational Risk Assessment in Power Grids. 
 [[Paper](https://arxiv.org/pdf/2209.12762.pdf)], submitted to IEEE Transactions on Power Systems.
 
 ## Publications:
+
+[7] Seonho Park, **Wenbo Chen**, Dahye Han, Mathieu Tanneau, Pascal Van Hentenryck. Confidence-Aware Graph Neural Networks for Learning Reliability Assessment Commitments. IEEE Transactions on Power Systems, Jul. 2023. [[Paper](https://arxiv.org/pdf/2211.15755.pdf)]
 
 [6] Enpeng Yuan, **Wenbo Chen**, Pascal Van Hentenryck. Reinforcement Learning from Optimization Proxy for Ride-Hailing Vehicle Relocation. Journal of Artificial Intelligence Research, 2022. [[Paper](https://www.jair.org/index.php/jair/article/view/13794)]
 
