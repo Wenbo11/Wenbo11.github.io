@@ -10,20 +10,23 @@ redirect_from:
 {% include base_path %}
 
 # About me
-I am a fourth-year Machine Learning Ph.D. student in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on fusing **Machine Learning** and **Mathematical Optimization** into large-scale, intelligent systems with applications in energy systems ([Risk-Aware Market Clearing](https://ramc.isye.gatech.edu/)), supply chains (Data-Driven Service Network Design) and ride-hailing systems (Reinforcement Learning for Vehicle Relocation). The research methodologies are the following:
-* **Learning Optimization Proxy**: Learning ML surrogate for computationally expensive optimization models
-* **Learning to Optimize**: Integrate ML and optimization solvers to accelerate optimization solving
-* **Differentiable Programming**: Design efficient and scalable differentiable optimization layers for end-to-end optimization learning
-* **Reliable Machine Learning**: Provide formal guarantees of machine learning models by neural network verification, uncertainty quantification, and fast feasibility restoration.
-
-My research goal is to design **reliable**, **efficient**, and **scalable** decision-making solutions for systems at a massive scale driven by societal challenges in energy, logistics, and supply chains.
+I am a fifth-year Machine Learning Ph.D. candidate in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on developing **reliable**, **efficient**, and **scalable** decision-making solutions by fusing **Machine Learning** and **Mathematical Optimization** for systems at a massive scale driven by societal challenges in energy, supply chains and sustainability. The research interests are:
+* **End-to-End Learning and Optimization**
+  - **Learning Optimization Proxy**: Develop ML surrogates for computationally expensive optimizations/simulations,
+  - **Learning to Optimize**: Integrate ML and optimization algorithms to accelerate optimization solving,
+  - **Differentiable Programming**: Design efficient and scalable differentiable optimization layers,
+* **Trustworthy Machine Learning**: 
+  - **Fast Feasibility Restoration**: Ensure outputs of ML models satisfy hard constraints and specifications,
+  - **Neural Network Verification**: Formally verify the properties of deep neural network,
+  - **Uncertainty Quantification**: Provide statistical guarantees of ML models using conformal prediction.
 
 # Education
-* Ph.D. in Machine Learning, Georgia Institute of Technology, 2024 (expected)
-* Ph.D. Minor: Operation Research
+* Ph.D. in Machine Learning, Georgia Institute of Technology, Expected in May 2024 
+  - Minor: Operations Research
+  - The H. Milton Stewart School of Industrial and Systems Engineering (ISyE)
 * B.S. in Electrical Engineering, Huazhong University of Science and Technology, 2019
 
-# Work experience
+# Professional experiences
 * Jan 2021 - Present: Graduate Research Assistant in [AI4OPT](https://www.ai4opt.org/)
   * Research: Integrating machine learning and optimization to enable reliable intelligent decision making at massive scale,
   * Service: Hosting AI4OPT student ML methodology reading group & Mentoring junior Ph.D. students and undergraduates.
@@ -37,18 +40,20 @@ My research goal is to design **reliable**, **efficient**, and **scalable** deci
 * Aug 2019 - Present: Graduate Research Assistant
   * Georgia Institute of Technology
   
-# Publication
+# Publications
 ## Pre-prints and working papers:
+[13] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. Fast Risk Assessment with Optimization Proxies.
+
 [12] Ritesh Ojha\*, **Wenbo Chen\***, Hanyu Zhang, Reem Khir, Alan Erera and Pascal Van Hentenryck. Optimization-based Learning for Load Plan Modification in Service Networks. [[Paper](https://arxiv.org/pdf/2307.04050.pdf)], submitted to Transportation Science.
 **\*co-first author**
 
-[11] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch. [[Paper](https://arxiv.org/abs/2304.11726)], under revision of IEEE Transactions on Power Systems.
+[11] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch. [[Paper](https://arxiv.org/abs/2304.11726)], under second-round revision of IEEE Transactions on Power Systems.
 
 [10] **Wenbo Chen**, Reem Khir and Pascal Van Hentenryck. Two-Stage Learning For the Flexible Job Shop Scheduling Problem.
 [[Paper](https://arxiv.org/abs/2301.09703)]
 
 [9] Seonho Park, **Wenbo Chen**, Terrence W.K. Mak and Pascal Van Hentenryck. Compact Optimization Learning for AC Optimal Power Flow. 
-[[Paper](https://arxiv.org/pdf/2301.08840.pdf)], under revision of IEEE Transactions on Power Systems.
+[[Paper](https://arxiv.org/pdf/2301.08840.pdf)], under second-round revision of IEEE Transactions on Power Systems.
 
 [8] Oliver Stover, Pranav Karve, Sankaran Mahadevan, **Wenbo Chen**, Haoruo Zhao, Mathieu Tanneau, Pascal Van Hentenryck. Just-In-Time Learning for Operational Risk Assessment in Power Grids. 
 [[Paper](https://arxiv.org/pdf/2209.12762.pdf)], submitted to IEEE Transactions on Power Systems.
@@ -71,6 +76,14 @@ My research goal is to design **reliable**, **efficient**, and **scalable** deci
 [1] **Wenbo Chen**, Pan Zhou, Shaokang Dong, Shimin Gong, Menglan Hu, Kehao Wang, and Dapeng Oliver
 Wu. Tree-based Contextual Learning for Online Job or Candidate Recommendation with Big Data Support
 in Professional Social Networks. IEEE ACCESS, 2018. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8552383)]
+
+## Invited Presentations:
+* INFORMS Conference, "End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch", October 2023, Phoenix, AZ
+*  NSF AI4OPF Annual Review, "End-to-End Learning and Optimization", Jun 2023, Atlanta, GA
+* IISE Conference, "Confidence-Aware Graph Neural Networks for Learning Reliability Assessment Commitments", May 2023, New Orleans, LA
+* Google Research Operations Research, "Machine Learning for Discrete Optimization and Applications in Power Systems and Supply Chains", May 2023, Virtual
+* INFORMS Conference, "Learning Optimization Proxies for Large-Scale Security-Constrained Economic Dispatch", October 2022, Indianapolis, IN 
+* ISyE Student Seminar, "Learning Optimization Proxies for Large-Scale Security-Constrained Economic Dispatch", April 2022, Georgia Tech
 
 <!-- Teaching
 ======

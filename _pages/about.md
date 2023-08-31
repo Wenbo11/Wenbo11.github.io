@@ -11,7 +11,7 @@ redirect_from:
 
 **About me**
 ======
-I am a fourth-year Machine Learning Ph.D. student in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on fusing **Machine Learning** and **Mathematical Optimization** into large-scale, intelligent systems with applications in energy systems ([Risk-Aware Market Clearing](https://ramc.isye.gatech.edu/)), supply chains (Data-Driven Service Network Design) and ride-hailing systems (Reinforcement Learning for Vehicle Relocation).
+I am a fifth-year Machine Learning Ph.D. candidate in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on developing **reliable**, **efficient**, and **scalable** decision-making solutions by fusing **Machine Learning** and **Mathematical Optimization** for systems at a massive scale driven by societal challenges in energy, supply chains and sustainability.
 
 **News**
 ======
