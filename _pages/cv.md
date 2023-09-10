@@ -32,33 +32,32 @@ I am a fifth-year Machine Learning Ph.D. candidate in the H. Milton Stewart Scho
   * Service: Hosting AI4OPT student ML methodology reading group & Mentoring junior Ph.D. students and undergraduates.
 * Jan 2023 - Present: Research Intern in [Kinaxis](https://www.kinaxis.com/en)
   * Developing learning-augmented optimization solver for [rapid response](https://www.kinaxis.com/en/solutions/platform?utm_source=google&utm_medium=ppc&utm_campaign=7015Y000003sEekQAE&utm_term=131899310774&utm_content=project-authority&gclid=EAIaIQobChMIkvuv0PLw_QIVkgKtBh1rMgeyEAAYASAAEgJF5_D_BwE) (Kinaxis core product) in the supply chain planning
-* Jan 2021 - May 2023: Research Assistant for Industrial Collaborator in [MISO](https://www.misoenergy.org/) [5][7][8][9][11]
+* Jan 2021 - May 2023: Research Assistant for Industrial Collaborator in [MISO](https://www.misoenergy.org/) [5][7][8][9][10][13][14]
   * Proposed the first ML surrogate to **large-scale security-constrained economic dispatch** problem on [RTE](https://www.rte-france.com/) system with 6,708 buses in the MISO pipeline. The proposed proxies produce the optimal dispatches with relative errors 0.6% within milliseconds [5].
-  * Proposed end-to-end, **self-supervised** ML surrogate for DC optimal power flow on up to **30,000** buses system (the largest open-sourced system) with **feasibility guarantee**. It achieves **5 orders of magnitude faster** than Gurobi (the fastest commercial solver) with the optimality gap less than **0.5%** [11].
-  * Proposed confidence-aware graph neural network to accelerate solving **security-constrained unit commit-ment** on [RTE](https://www.rte-france.com/) system (a mixed-integer linear program with millions of decision variables and constraints). It generates feasible solutions with **0.77%** optimality gap with **4 times speedup** than [Gurobi](https://www.gurobi.com/) [8].
+  * Proposed end-to-end, **self-supervised** ML surrogate for DC optimal power flow on up to **30,000** buses system (the largest open-sourced system) with **feasibility guarantee**. It achieves **5 orders of magnitude faster** than Gurobi (the fastest commercial solver) with the optimality gap less than **0.5%** [9].
+  * Proposed confidence-aware graph neural network to accelerate solving **security-constrained unit commit-ment** on [RTE](https://www.rte-france.com/) system (a mixed-integer linear program with millions of decision variables and constraints). It generates feasible solutions with **0.77%** optimality gap with **4 times speedup** than [Gurobi](https://www.gurobi.com/) [7].
 * Jun 2020 - Aug 2020: Research Intern in [Ant Financial](https://www.antgroup.com/en/)
 * Aug 2019 - Present: Graduate Research Assistant
   * Georgia Institute of Technology
   
 # Publications
 ## Pre-prints and working papers:
-[13] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. Fast Risk Assessment with Optimization Proxies.
+[14] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. Optimality Verification for Optimization Proxies.
+
+[13] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. Real-Time Risk Assessment with Optimization Proxies.
 
 [12] Ritesh Ojha\*, **Wenbo Chen\***, Hanyu Zhang, Reem Khir, Alan Erera and Pascal Van Hentenryck. Optimization-based Learning for Load Plan Modification in Service Networks. [[Paper](https://arxiv.org/pdf/2307.04050.pdf)], submitted to Transportation Science.
 **\*co-first author**
 
-[11] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch. [[Paper](https://arxiv.org/abs/2304.11726)], under second-round revision of IEEE Transactions on Power Systems.
+[11] **Wenbo Chen**, Reem Khir and Pascal Van Hentenryck. Two-Stage Learning For the Flexible Job Shop Scheduling Problem. [[Paper](https://arxiv.org/abs/2301.09703)]
 
-[10] **Wenbo Chen**, Reem Khir and Pascal Van Hentenryck. Two-Stage Learning For the Flexible Job Shop Scheduling Problem.
-[[Paper](https://arxiv.org/abs/2301.09703)]
-
-[9] Seonho Park, **Wenbo Chen**, Terrence W.K. Mak and Pascal Van Hentenryck. Compact Optimization Learning for AC Optimal Power Flow. 
-[[Paper](https://arxiv.org/pdf/2301.08840.pdf)], under second-round revision of IEEE Transactions on Power Systems.
-
-[8] Oliver Stover, Pranav Karve, Sankaran Mahadevan, **Wenbo Chen**, Haoruo Zhao, Mathieu Tanneau, Pascal Van Hentenryck. Just-In-Time Learning for Operational Risk Assessment in Power Grids. 
+[10] Oliver Stover, Pranav Karve, Sankaran Mahadevan, **Wenbo Chen**, Haoruo Zhao, Mathieu Tanneau, Pascal Van Hentenryck. Just-In-Time Learning for Operational Risk Assessment in Power Grids. 
 [[Paper](https://arxiv.org/pdf/2209.12762.pdf)], submitted to IEEE Transactions on Power Systems.
 
 ## Publications:
+[9] **Wenbo Chen**, Mathieu Tanneau and Pascal Van Hentenryck. End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch. IEEE Transactions on Power Systems, Sept. 2023. [[Paper](https://arxiv.org/abs/2304.11726.pdf)]
+
+[8] Seonho Park, **Wenbo Chen**, Terrence W.K. Mak and Pascal Van Hentenryck. Compact Optimization Learning for AC Optimal Power Flow. IEEE Transactions on Power Systems, Sept. 2023. [[Paper](https://arxiv.org/pdf/2301.08840.pdf)]
 
 [7] Seonho Park, **Wenbo Chen**, Dahye Han, Mathieu Tanneau, Pascal Van Hentenryck. Confidence-Aware Graph Neural Networks for Learning Reliability Assessment Commitments. IEEE Transactions on Power Systems, Jul. 2023. [[Paper](https://arxiv.org/pdf/2211.15755.pdf)]
 

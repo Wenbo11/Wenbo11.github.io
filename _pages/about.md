@@ -15,6 +15,10 @@ I am a fifth-year Machine Learning Ph.D. candidate in the H. Milton Stewart Scho
 
 **News**
 ======
+[09/2023] Two papers accepted in IEEE Transactions on Power Systems. Check [paper](https://arxiv.org/pdf/2304.11726.pdf) and [paper](https://arxiv.org/pdf/2301.08840.pdf).
+
+[07/2023] One papers accepted in IEEE Transactions on Power Systems. Check [paper](https://arxiv.org/pdf/2211.15755.pdf).
+
 [05/2023] I won thesis pitch competition for the ML and manufacturing track in [IISE Annual Meeting 2023](https://www.iise.org/Annual/)! Check the [news](https://www.ai4opt.org/news-events/wenbo-chen-wins-thesis-pitch-competition-ml-and-manufacturing).
 
 [05/2023] I presented the advancement of [End to End Learning and Optimization](https://www.ai4opt.org/end-end-learning-and-optimization) thrust for AI4OPT External Advisory Board (EAB). Check the [news](https://www.ai4opt.org/news-events/ai4opt-holds-meeting-eab-discuss-latest-research-developments).
