@@ -10,15 +10,10 @@ redirect_from:
 {% include base_path %}
 
 # About me
-I am a fifth-year Machine Learning Ph.D. candidate in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on developing **reliable**, **efficient**, and **scalable** decision-making solutions by fusing **Machine Learning** and **Mathematical Optimization** for systems at a massive scale driven by societal challenges in energy, supply chains and sustainability. The research interests are:
-* **End-to-End Learning and Optimization**
-  - **Learning Optimization Proxy**: Develop ML surrogates for computationally expensive optimizations/simulations,
-  - **Learning to Optimize**: Integrate ML and optimization algorithms to accelerate optimization solving,
-  - **Differentiable Programming**: Design efficient and scalable differentiable optimization layers,
-* **Trustworthy Machine Learning**: 
-  - **Fast Feasibility Restoration**: Ensure outputs of ML models satisfy hard constraints and specifications,
-  - **Neural Network Verification**: Formally verify the properties of deep neural network,
-  - **Uncertainty Quantification**: Provide statistical guarantees of ML models using conformal prediction.
+I am a fifth-year Machine Learning Ph.D. candidate in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on developing **reliable**, **efficient**, and **scalable** decision-making solutions by fusing **Machine Learning** and **Mathematical Optimization** for systems at a massive scale driven by societal challenges in energy, supply chains and sustainability. 
+The methodology can be categorized into the following two areas:
+1. **Machine Learning for Real-Time Optimization**: Enable real-time decision making at scale by developing optimization proxies (i.e., computationally efficient ML surrogates) that approximate computationally expensive optimization models.
+2. **Optimization for Reliable Machine Learning**: Enable reliable and robust ML models by developing scalable differentiable optimization layer to ensure models’ outputs satisfy hard constraints, designing formal verification to prove models’ exact robustness and developing conformal prediction to provide statistical guarantees on model performances.
 
 # Education
 * Ph.D. in Machine Learning, Georgia Institute of Technology, Expected in May 2024 

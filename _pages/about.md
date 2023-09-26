@@ -11,13 +11,25 @@ redirect_from:
 
 **About me**
 ======
-I am a fifth-year Machine Learning Ph.D. candidate in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on developing **reliable**, **efficient**, and **scalable** decision-making solutions by fusing **Machine Learning** and **Mathematical Optimization** for systems at a massive scale driven by societal challenges in energy, supply chains and sustainability.
+I am a fifth-year Machine Learning Ph.D. candidate in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). My research with Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) focuses on developing **reliable**, **efficient**, and **scalable** decision-making solutions by fusing **Machine Learning** and **Mathematical Optimization** for systems at a massive scale driven by societal challenges in energy, supply chains and sustainability. 
+The methodology can be categorized into the following two areas:
+1. **Machine Learning for Real-Time Optimization**: Enable real-time decision making at scale by developing optimization proxies (i.e., computationally efficient ML surrogates) that approximate computationally expensive optimization models.
+2. **Optimization for Reliable Machine Learning**: Enable reliable and robust ML models by developing scalable differentiable optimization layer to ensure models’ outputs satisfy hard constraints, designing formal verification to prove models’ exact robustness and developing conformal prediction to provide statistical guarantees on model performances.
+
 
 **News**
 ======
+
+<p style="text-align: center;"><font size="5"><b>I'm in the Academic Job Market 2023-24</b></font></p>
+
+I will present my work "<i>End-To-End Feasible Optimization Proxies for Large-Scale Economic Dispatch</i>" at INFORMS Annual Meeting this year. Detailes below:
+<p style="text-align: center;">  <b>Sunday, Oct 15, 04:00pm - 05:15pm (SE45, CC-North 227A)</b></p>
+
+---
+
 [09/2023] Two papers accepted in IEEE Transactions on Power Systems. Check [paper](https://arxiv.org/pdf/2304.11726.pdf) and [paper](https://arxiv.org/pdf/2301.08840.pdf).
 
-[07/2023] One papers accepted in IEEE Transactions on Power Systems. Check [paper](https://arxiv.org/pdf/2211.15755.pdf).
+[07/2023] One paper accepted in IEEE Transactions on Power Systems. Check [paper](https://arxiv.org/pdf/2211.15755.pdf).
 
 [05/2023] I won thesis pitch competition for the ML and manufacturing track in [IISE Annual Meeting 2023](https://www.iise.org/Annual/)! Check the [news](https://www.ai4opt.org/news-events/wenbo-chen-wins-thesis-pitch-competition-ml-and-manufacturing).
 
