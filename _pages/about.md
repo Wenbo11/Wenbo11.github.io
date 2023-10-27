@@ -22,9 +22,6 @@ The methodology can be categorized into the following two areas:
 
 <p style="text-align: center;"><font size="5"><b>I'm in the Academic Job Market 2023-24</b></font></p>
 
-I will present my work "<i>End-To-End Feasible Optimization Proxies for Large-Scale Economic Dispatch</i>" at INFORMS Annual Meeting this year. Detailes below:
-<p style="text-align: center;">  <b>Sunday, Oct 15, 04:00pm - 05:15pm (SE45, CC-North 227A)</b></p>
-
 ---
 
 [09/2023] Two papers accepted in IEEE Transactions on Power Systems. Check [paper](https://arxiv.org/pdf/2304.11726.pdf) and [paper](https://arxiv.org/pdf/2301.08840.pdf).
