@@ -23,6 +23,9 @@ The methodology can be categorized into the following two areas:
 <p style="text-align: center;"><font size="5"><b>I'm in the Academic Job Market 2023-24</b></font></p>
 
 ---
+[01/2024] Our team won VNN-COMP’23 Award for outstanding benchmark.
+
+[11/2023] I won Anderson-Interface Fellowship for Excellence in Research in the area of Energy and Sustainable Systems.
 
 [09/2023] Two papers accepted in IEEE Transactions on Power Systems. Check [paper](https://arxiv.org/pdf/2304.11726.pdf) and [paper](https://arxiv.org/pdf/2301.08840.pdf).
 
