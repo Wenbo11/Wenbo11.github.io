@@ -9,15 +9,20 @@ redirect_from:
 ---
 
 
-**About me**
+**About Me**
 ======
-I am a fifth-year Ph.D. candidate in the H. Milton Stewart School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/)) at [Georgia Tech](https://www.gatech.edu/) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)), advised by Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/).
+<div style="text-align: justify;"> 
 
-My research focuses on developing principled integration of **Machine Learning** and **Mathematical Optimization** to enable **reliable**, **efficient**, and **scalable** decision-making solutions for systems at a massive scale driven by societal challenges in **energy**, **transportation** and **sustainability**.
-The methodologies brings benifits to the areas of Machine Learning (ML) and Operations Research (OR):
-1. **Machine Learning for Real-Time Optimization**: On the OR side, my research enable real-time decision making at scale by developing optimization proxies that approximate computationally expensive optimization models. The methodologies have led to several significant and impactful applications. One is the first scalable real-time risk assessment in energy system (see [[paper1](https://ieeexplore.ieee.org/document/10256159)], [[paper2](https://ieeexplore.ieee.org/document/10256159)], [[paper3](https://www.sciencedirect.com/science/article/abs/pii/S0378779622006629)]), built on the [PERFORM project of ARPA-E](https://arpa-e.energy.gov/technologies/projects/risk-aware-market-clearing-power-systems-ramc), in partnership with the Midcontinent Independent System Operator ([MISO](https://www.misoenergy.org/)) and France’s transmission system operator ([RTE](https://www.rte-france.com/en/home)). Another is achieving fast load planning in industrial-size trucking service networks (see [[paper](https://arxiv.org/pdf/2307.04050.pdf)]), in partnership with a major piercer delivery company in the world.
-2. **Optimization for Reliable Machine Learning**: On the ML side, my research enable reliable and robust ML models by developing scalable differentiable optimization layer to ensure ML models’ outputs satisfy hard constraints and specifications (see [[paper](https://ieeexplore.ieee.org/document/10256159)]), designing formal verification to prove ML models’ exact robustness and developing conformal prediction to provide statistical guarantees on model performances.
+I am a fifth-year Ph.D. candidate in the H. Milton Stewart School of Industrial and Systems Engineering (<a href="https://www.isye.gatech.edu/">ISyE</a>) and a research assistant at NSF Artificial Intelligence Research Institute for Advances in Optimization (<a href="https://www.ai4opt.org/">AI4OPT</a>) at <a href="https://www.gatech.edu/">Georgia Tech</a>, advised by Prof. <a href="https://sites.gatech.edu/pascal-van-hentenryck/">Pascal Van Hentenryck</a>. <br> <br>
 
+My research focuses on developing <b> principled integration of Machine Learning and Mathematical Optimization to enable reliable, efficient, and scalable decision-making for systems at a massive scale driven by societal challenges in energy, transportation and sustainability </b>. 
+
+The methodologies brings benifits to the areas of Machine Learning (ML) and Operations Research (OR): <br>  <br>
+1. <b> Machine Learning for Real-Time Optimization </b>: On the OR side, my research enable real-time decision making at scale by developing optimization proxies that approximate computationally expensive optimization models. The methodologies have led to several significant and impactful applications. One is the first scalable real-time risk assessment in energy system (see [<a href="https://ieeexplore.ieee.org/document/10256159">paper1</a>], [<a href="https://ieeexplore.ieee.org/document/10256159">paper2</a>], [<a href="https://www.sciencedirect.com/science/article/abs/pii/S0378779622006629">paper3</a>]), built on the <a href="https://arpa-e.energy.gov/technologies/projects/risk-aware-market-clearing-power-systems-ramc">PERFORM project of ARPA-E</a>
+, in partnership with the Midcontinent Independent System Operator (<a href="https://www.misoenergy.org/">MISO</a>) and France’s transmission system operator (<a href="https://www.rte-france.com/en/home">RTE</a>). Another is achieving fast load planning in industrial-size trucking service networks (see [<a href="https://arxiv.org/pdf/2307.04050.pdf">paper</a>]), in partnership with a major parcel delivery company in the world. <br>  <br>
+2. <b>Optimization for Reliable Machine Learning </b>: On the ML side, my research enable reliable and robust ML models by developing scalable differentiable optimization layer to ensure ML models’ outputs satisfy hard constraints and specifications (see [<a href="https://ieeexplore.ieee.org/document/10256159">paper</a>]), designing formal verification to prove ML models’ exact robustness and developing conformal prediction to provide statistical guarantees on model performances. 
+</div>
+ <br>
 
 **News**
 ======
@@ -25,7 +30,7 @@ The methodologies brings benifits to the areas of Machine Learning (ML) and Oper
 <p style="text-align: center;"><font size="5"><b>I'm in the Academic Job Market 2023-24</b></font></p>
 
 ---
-[01/2024] Our team won VNN-COMP’23 Award for outstanding benchmark.
+[01/2024] Our team won VNN-COMP’23 Award for outstanding benchmark. Check [here](https://github.com/Wenbo11/Wenbo11.github.io/blob/master/vnncomp2023_certificate_ml4acopf.pdf).
 
 [11/2023] I won Anderson-Interface Fellowship for Excellence in Research in the area of Energy and Sustainable Systems.
 
