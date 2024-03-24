@@ -52,4 +52,103 @@ The methodologies bring benefits to the areas of Machine Learning (ML) and Opera
 
 [10/2022] I will be presenting our work Learning Optimization Proxies for Large-Scale Security-Constrained Economic Dispatch dispatch at the [INFORMS Annual Meeting 2022](https://meetings.informs.org/wordpress/indianapolis2022/)
 
+ <br>
+
+**Collaborations**
+======
+<html lang="en">
+<head>
+<!-- <meta charset="UTF-8"> -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<!-- <title>Corporate Collaboration Diagram</title> -->
+<style>
+  .main-content {
+    /* font-size: 20px; */
+    /* text-align: center; */
+    margin-bottom: -1em;
+    /* color: #556B2F; */
+    /* font-weight: bold; */
+  }
+  .diagram-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    /* padding: px; */
+    box-sizing: border-box;
+    /* margin-bottom: -1em; */
+  }
+  .category {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-items: center;
+    /* margin-bottom: -1em; */
+    /* align-items: flex-start; */
+  }
+  /* .category:nth-child(2) {
+    align-items: center;
+  }
+  .category:nth-child(3) {
+    align-items: center;
+  } */
+  .category h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #556B2F;
+  }
+  .category img {
+    width: auto;
+    height: 100px; /* You might need to adjust this depending on the actual logo size */
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .dotted-line1 {
+    border-left: 3px dashed #ccc;
+    height: 250px; /* Adjust the height as necessary */
+    position: absolute;
+    left: 38%;
+  }
+  .dotted-line2 {
+    border-left: 3px dashed #ccc;
+    height: 250px; /* Adjust the height as necessary */
+    position: absolute;
+    left: 68%;
+  }
+</style>
+</head>
+<p class="main-content">My research has strong collaborations with several major companies in the fields of Energy, Sustainable Supply Chain and Trustworthy AI, working on improving their businesses and operations.</p>
+<body>
+<div class="diagram-container">
+
+  <div class="category">
+    <h2>Energy</h2>
+    <a href="https://www.misoenergy.org/"> <img src="../images/miso_logo.jpg" alt="Energy Company Logo 1"> </a>
+    <a href="https://www.rte-france.com/en/home"> <img src="../images/RTE_logo.jpg" alt="Energy Company Logo 2"> </a>
+  </div>
+  
+  <!-- <div class="dotted-line1"></div> -->
+
+  <div class="category">
+    <h2>Supply Chain</h2>
+    <a href="https://www.ups.com/us/en/Home.page"><img src="../images/ups_logo.jpg" alt="Supply Chain Company Logo 1"> </a>
+    <a href="https://www.kinaxis.com/en"> <img src="../images/kinaxis_logo.jpg" alt="Supply Chain Company Logo 2"> </a>
+  </div>
+
+ <!-- <div class="dotted-line2"></div> -->
+
+  <div class="category">
+    <h2>Trustworthy AI</h2>
+    <a href="https://www.keysight.com/us/en/home.html"> <img src="../images/keysight_logo.png" alt="AI Company Logo"> </a>
+     <img src="" alt="">
+  </div>
+</div>
+
+</body>
+</html>
+
+<br>
+<br>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=450&t=tt&d=egpxRs9v7VzCUiiWU5X_DY0KyHy0rYIzCgDf9wHE8e8'></script>
