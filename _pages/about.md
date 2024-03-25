@@ -30,6 +30,8 @@ The methodologies bring benefits to the areas of Machine Learning (ML) and Opera
 <p style="text-align: center;"><font size="5"><b>I'm in the Academic Job Market 2023-24</b></font></p>
 
 ---
+[03/2024] My research work "Real-Time Risk Assessment in Power System" has been highlighted in the latest [AI Magazine about NSF's National AI Institutes](https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.12146).
+
 [01/2024] Our team won VNN-COMP’23 Award for outstanding benchmark. Check [here](https://github.com/Wenbo11/Wenbo11.github.io/blob/master/vnncomp2023_certificate_ml4acopf.pdf).
 
 [11/2023] I won Anderson-Interface Fellowship for Excellence in Research in the area of Energy and Sustainable Systems.
