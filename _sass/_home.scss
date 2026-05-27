@@ -1,0 +1,160 @@
+.profile {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid var(--color-border);
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.03em;
+}
+
+.profile-title {
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+  margin-bottom: 1rem;
+}
+
+.profile-bio {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+.profile-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    transition: all 0.2s;
+
+    &:hover {
+      color: var(--color-accent);
+      border-color: var(--color-accent);
+      background: var(--color-tag-bg);
+    }
+
+    i {
+      font-size: 1rem;
+    }
+  }
+}
+
+.research-interests {
+  margin-bottom: 3rem;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: var(--color-text);
+    line-height: 1.8;
+  }
+}
+
+.interest-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+
+  .tag {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.3rem 0.75rem;
+    background: var(--color-tag-bg);
+    color: var(--color-tag-text);
+    border-radius: 20px;
+  }
+}
+
+.section {
+  margin-bottom: 3rem;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-border);
+  }
+}
+
+.news-list {
+  list-style: none;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.news-item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.news-date {
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  color: var(--color-text-light);
+  white-space: nowrap;
+  min-width: 90px;
+}
+
+.news-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 130px;
+    height: 130px;
+  }
+
+  .profile-links {
+    justify-content: center;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

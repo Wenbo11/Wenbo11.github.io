@@ -1,16 +1,179 @@
 ---
-layout: archive
-title: "Publications"
+layout: default
+title: Publications
 permalink: /publications/
-author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+<h1 class="page-title">Publications</h1>
 
-{% include base_path %}
+<p style="margin-bottom: 2rem; color: var(--color-text-light);">
+  See also: <a href="{{ site.author.google_scholar }}">Google Scholar</a>
+</p>
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="pub-section">
+<h3>AI Agents & LLM Systems</h3>
+<ul class="pub-list">
+
+<li class="pub-item">
+  <div class="pub-title">Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights</div>
+  <div class="pub-authors"><span class="me">W. Chen</span>, V. Padmanabhan, T. Giyahchi, E. Wong, L. Akoglu</div>
+  <div class="pub-venue">ACL 2026 (Main Conference)</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2605.11330">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks</div>
+  <div class="pub-authors">X. Li, <span class="me">W. Chen</span>, Y. Liu, S. Zheng, X. Chen, Y. He, Y. Li, B. You, H. Shen, J. Sun, et al.</div>
+  <div class="pub-venue">Preprint, 2026</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2602.12670">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces</div>
+  <div class="pub-authors">X. Li, K.W. Choe, Y. Liu, X. Chen, C. Tao, B. You, <span class="me">W. Chen</span>, Z. Di, J. Sun, et al.</div>
+  <div class="pub-venue">Preprint, 2026</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2604.05172">Paper</a>
+  </div>
+</li>
+
+</ul>
+</div>
+
+<div class="pub-section">
+<h3>Data-Driven Decision Making</h3>
+<ul class="pub-list">
+
+<li class="pub-item">
+  <div class="pub-title">Latent Spherical Flow Policy for Reinforcement Learning with Combinatorial Actions</div>
+  <div class="pub-authors">L. Kong, A. Satish, H. Jiang, A. Kangaslahti, A. Ma, <span class="me">W. Chen</span>, M. Song, L. Xu, et al.</div>
+  <div class="pub-venue">ICML 2026 (Spotlight)</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2601.22211">Paper</a>
+  </div>
+  <div class="pub-award">Spotlight</div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Boosting Column Generation with Graph Neural Networks for Joint Rider Trip Planning and Crew Shift Scheduling</div>
+  <div class="pub-authors">J. Lu, T. Ye, <span class="me">W. Chen</span>, P. Van Hentenryck</div>
+  <div class="pub-venue">Transportation Research Part E, 2025</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2401.03692">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Outbound Load Planning in Parcel Delivery Service Networks Using Machine Learning and Optimization</div>
+  <div class="pub-authors">R. Ojha, <span class="me">W. Chen</span>, H. Zhang, R. Khir, A. Erera, P. Van Hentenryck</div>
+  <div class="pub-venue">Transportation Science, 2025</div>
+  <div class="pub-links">
+    <a href="https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0672">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Compact Optimality Verification for Optimization Proxies</div>
+  <div class="pub-authors"><span class="me">W. Chen</span>, H. Zhao, M. Tanneau, P. Van Hentenryck</div>
+  <div class="pub-venue">ICML 2024</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2405.21023">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Real-Time Risk Analysis with Optimization Proxies</div>
+  <div class="pub-authors"><span class="me">W. Chen</span>, M. Tanneau, P. Van Hentenryck</div>
+  <div class="pub-venue">PSCC 2024 / Electric Power Systems Research, 2024</div>
+  <div class="pub-links">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0378779624007089">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch</div>
+  <div class="pub-authors"><span class="me">W. Chen</span>, M. Tanneau, P. Van Hentenryck</div>
+  <div class="pub-venue">IEEE Transactions on Power Systems, 2023</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2304.11726">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Compact Optimization Learning for AC Optimal Power Flow</div>
+  <div class="pub-authors">S. Park, <span class="me">W. Chen</span>, T.W.K. Mak, P. Van Hentenryck</div>
+  <div class="pub-venue">IEEE Transactions on Power Systems, 2023</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2301.08840">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Confidence-Aware Graph Neural Networks for Learning Reliability Assessment Commitments</div>
+  <div class="pub-authors">S. Park, <span class="me">W. Chen</span>, D. Han, M. Tanneau, P. Van Hentenryck</div>
+  <div class="pub-venue">IEEE Transactions on Power Systems, 2023</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2211.15755">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Two-Stage Learning for the Flexible Job Shop Scheduling Problem</div>
+  <div class="pub-authors"><span class="me">W. Chen</span>, R. Khir, P. Van Hentenryck</div>
+  <div class="pub-venue">Preprint, 2023</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2301.09703">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Learning Optimization Proxies for Large-Scale Security-Constrained Economic Dispatch</div>
+  <div class="pub-authors"><span class="me">W. Chen</span>, S. Park, M. Tanneau, P. Van Hentenryck</div>
+  <div class="pub-venue">PSCC 2022 / Electric Power Systems Research, 2022</div>
+  <div class="pub-links">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0378779622006629">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Reinforcement Learning from Optimization Proxy for Ride-Hailing Vehicle Relocation</div>
+  <div class="pub-authors">E. Yuan, <span class="me">W. Chen</span>, P. Van Hentenryck</div>
+  <div class="pub-venue">JAIR / IJCAI 2023</div>
+  <div class="pub-links">
+    <a href="https://www.jair.org/index.php/jair/article/view/13794">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Improving Learning to Branch via Reinforcement Learning</div>
+  <div class="pub-authors">H. Sun, <span class="me">W. Chen</span>, H. Li, L. Song</div>
+  <div class="pub-venue">NeurIPS 2020 Workshop (Learning Meets Combinatorial Algorithms)</div>
+  <div class="pub-links">
+    <a href="https://openreview.net/pdf?id=M_KwRsbhi5e">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Privacy-Preserving Online Task Allocation in Edge-Computing-Enabled Massive Crowdsensing</div>
+  <div class="pub-authors">P. Zhou, <span class="me">W. Chen</span>, S. Ji, H. Jiang, L. Yu, D. Wu</div>
+  <div class="pub-venue">IEEE Internet of Things Journal, 2019</div>
+  <div class="pub-links">
+    <a href="https://ieeexplore.ieee.org/ielaam/6488907/8863548/8662620-aam.pdf">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Privacy-Preserving Online Learning Approach for Incentive-based Demand Response in Smart Grid</div>
+  <div class="pub-authors"><span class="me">W. Chen</span>, A. Zhou, P. Zhou, L. Gao, S. Ji, D. Wu</div>
+  <div class="pub-venue">IEEE Systems Journal, 2019</div>
+  <div class="pub-links">
+    <a href="https://ieeexplore.ieee.org/abstract/document/8642292/">Paper</a>
+  </div>
+</li>
+
+</ul>
+</div>
