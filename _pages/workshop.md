@@ -58,6 +58,5 @@ improve their own skills?
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7449542806760759296" height="600" width="100%" frameborder="0" allowfullscreen="" title="Embedded post" style="border: 1px solid var(--color-border); border-radius: 8px; margin-bottom: 1.5rem;"></iframe>
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7444880701277188096" height="600" width="100%" frameborder="0" allowfullscreen="" title="Embedded post" style="border: 1px solid var(--color-border); border-radius: 8px; margin-bottom: 1.5rem;"></iframe>
 
 </div>
