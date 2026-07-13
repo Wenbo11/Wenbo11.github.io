@@ -15,6 +15,11 @@ author:
   linkedin: wenbo-chen
   twitter: wenbochen8
 
+# Analytics / visitor counter (GoatCounter)
+# Sign up free at https://www.goatcounter.com/, then put your code here.
+# e.g. if your dashboard is wenbochen.goatcounter.com, set: goatcounter: wenbochen
+goatcounter: "wenbochen"
+
 # Build
 markdown: kramdown
 kramdown:

@@ -90,3 +90,11 @@
   max-width: var(--max-width);
   margin: 0 auto;
 }
+
+.visitor-count {
+  white-space: nowrap;
+
+  #visitor-count:empty {
+    display: none;
+  }
+}

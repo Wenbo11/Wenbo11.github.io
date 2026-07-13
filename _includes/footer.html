@@ -1,5 +1,26 @@
 <footer class="site-footer">
   <div class="footer-inner">
-    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+    <p>
+      &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
+      {%- if site.goatcounter and site.goatcounter != "" %}
+      <span class="visitor-count">&middot; <span id="visitor-count" aria-live="polite"></span></span>
+      {%- endif %}
+    </p>
   </div>
 </footer>
+
+{%- if site.goatcounter and site.goatcounter != "" %}
+<script>
+  // Fetch the total pageview count from GoatCounter and show it in the footer.
+  (function () {
+    var el = document.getElementById('visitor-count');
+    if (!el) return;
+    fetch('https://{{ site.goatcounter }}.goatcounter.com/counter/TOTAL.json')
+      .then(function (r) { return r.json(); })
+      .then(function (d) { el.textContent = d.count + ' visitors'; })
+      .catch(function () { /* stay silent if the endpoint is unreachable */ });
+  })();
+</script>
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{%- endif %}
