@@ -15,6 +15,15 @@ permalink: /publications/
 <ul class="pub-list">
 
 <li class="pub-item">
+  <div class="pub-title">MARS: Margin-Adversarial Risk-controlled Stopping for Parallel LLM Test-time Scaling</div>
+  <div class="pub-authors"><span class="me">W. Chen</span>, P. Li, M. Liu, W. Su, T. Xie</div>
+  <div class="pub-venue">Preprint, 2026</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2606.12935">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
   <div class="pub-title">Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights</div>
   <div class="pub-authors"><span class="me">W. Chen</span>, V. Padmanabhan, T. Giyahchi, E. Wong, L. Akoglu</div>
   <div class="pub-venue">ACL 2026 (Main Conference)</div>
@@ -35,7 +44,7 @@ permalink: /publications/
 <li class="pub-item">
   <div class="pub-title">ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces</div>
   <div class="pub-authors">X. Li, K.W. Choe, Y. Liu, X. Chen, C. Tao, B. You, <span class="me">W. Chen</span>, Z. Di, J. Sun, et al.</div>
-  <div class="pub-venue">Preprint, 2026</div>
+  <div class="pub-venue">COLM 2026</div>
   <div class="pub-links">
     <a href="https://arxiv.org/abs/2604.05172">Paper</a>
   </div>
