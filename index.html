@@ -1,59 +1,125 @@
 ---
 layout: default
-title: Home
+title: Wenbo Chen
 ---
 
 <section class="profile">
   <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Wenbo Chen" class="profile-photo">
   <div class="profile-info">
     <h1 class="profile-name">Wenbo Chen</h1>
-    <p class="profile-title">Applied Scientist at Amazon</p>
-    <p class="profile-bio">
-      I build AI systems that make decisions — from autonomous agents that plan and act,
-      to data-driven methods that enable real-time operations at scale.
-      My work bridges AI agents, LLMs, and data-driven optimization.
+    <p class="profile-tagline">LLM Post-Training &amp; Evaluation for AI Agents</p>
+    <p class="profile-role">
+      <i class="fab fa-amazon"></i>
+      <span>Applied Scientist at Amazon, <strong>post-training LLMs for the Amazon Ads agent</strong></span>
     </p>
     <p class="profile-bio">
-      Currently an Applied Scientist at Amazon working on seller-facing AI agents.
-      ML PhD from <a href="https://www.gatech.edu/">Georgia Tech</a> / <a href="https://www.ai4opt.org/">NSF AI4OPT</a> with <a href="https://sites.gatech.edu/pascal-van-hentenryck/">Pascal Van Hentenryck</a>.
-      Our <a href="https://arxiv.org/abs/2602.12670">SkillsBench</a> is increasingly adopted as an agentic evaluation by frontier labs (Qwen, HY3),
-      and my work on scalable data-driven decision making has seen major industrial adoption.
+      I make LLM agents better and prove it: I post-train the models behind Amazon's Ads agent,
+      and I build the benchmarks the field uses to measure agents.
+      My evaluation work includes <a href="https://www.skillsbench.ai">SkillsBench</a> (NeurIPS 2026), adopted by Meta, Qwen, and Tencent HY3 to evaluate their models,
+      and <a href="https://clawsbench.benchflow.ai/">ClawsBench</a> (COLM 2026).
+      My research also spans reinforcement learning and LLM test-time scaling.
+    </p>
+    <p class="profile-bio">
+      ML PhD from <a href="https://www.gatech.edu/">Georgia Tech</a> / <a href="https://www.ai4opt.org/">NSF AI4OPT</a> with <a href="https://sites.gatech.edu/pascal-van-hentenryck/">Pascal Van Hentenryck</a>,
+      where my work on scalable data-driven decision making saw major industrial adoption.
     </p>
     <div class="profile-links">
       <a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope"></i> Email</a>
       <a href="{{ site.author.google_scholar }}"><i class="ai ai-google-scholar"></i> Scholar</a>
       <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin"></i> LinkedIn</a>
       <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter"></i> Twitter</a>
     </div>
   </div>
 </section>
 
-<section class="research-interests">
-  <h2>Research</h2>
-  <p>
-    My research focuses on enabling AI systems to make complex decisions autonomously and reliably.
-    I am particularly interested in how LLM-based agents can acquire, compose, and execute procedural skills
-    to solve real-world tasks — and how we can verify and trust their decisions.
-  </p>
-  <div class="interest-tags">
-    <span class="tag">AI Agents</span>
-    <span class="tag">LLM Skills & Evaluation</span>
-    <span class="tag">Decision Making</span>
-    <span class="tag">Trustworthy AI</span>
-    <span class="tag">Data-Driven Optimization</span>
+<ul class="highlights" aria-label="Highlights">
+  <li><strong>NeurIPS</strong> &middot; <strong>COLM</strong> &middot; <strong>ACL</strong> &middot; <strong>ICML</strong> 2026</li>
+  <li><a href="https://github.com/benchflow-ai/skillsbench"><i class="fab fa-github"></i> SkillsBench <strong>1.8k&#9733;</strong></a></li>
+  <li>SkillsBench adopted by <strong>Meta</strong>, <strong>Qwen</strong>, <strong>Tencent HY3</strong></li>
+</ul>
+
+<section class="section">
+  <h2>What I Work On</h2>
+  <div class="pillars">
+    <div class="pillar">
+      <h3><i class="fas fa-sliders"></i> LLM Post-Training</h3>
+      <p>Post-training LLMs for the Amazon Ads agent (industry, current focus).</p>
+      <ul>
+        <li>Reinforcement learning: <a href="https://arxiv.org/pdf/2601.22211">LSFlow</a> (ICML 2026 Spotlight), <a href="https://www.jair.org/index.php/jair/article/view/13794">RL for ride-hailing vehicle relocation</a> (JAIR / IJCAI 2023)</li>
+        <li>LLM test-time scaling: <a href="https://arxiv.org/pdf/2606.12935">MARS</a> (first author), 25-47% fewer tokens at full-budget accuracy</li>
+        <li>Earlier RL work: <a href="https://openreview.net/pdf?id=M_KwRsbhi5e">improving learning to branch via RL</a> (NeurIPS 2020 Workshop)</li>
+      </ul>
+      <div class="interest-tags">
+        <span class="tag">LLM Post-Training</span>
+        <span class="tag">Reinforcement Learning</span>
+        <span class="tag">Test-Time Scaling</span>
+        <span class="tag">AI Agents</span>
+      </div>
+    </div>
+    <div class="pillar">
+      <h3><i class="fas fa-clipboard-check"></i> LLM &amp; Agent Evaluation</h3>
+      <p>Benchmarks and methods that measure what agents can do and whether they can be trusted.</p>
+      <ul>
+        <li><a href="https://www.skillsbench.ai">SkillsBench</a> (NeurIPS 2026, co-first author): do agent skills actually help? Adopted by Meta, Qwen, HY3</li>
+        <li><a href="https://clawsbench.benchflow.ai/">ClawsBench</a> (COLM 2026): capability and safety of productivity agents</li>
+        <li><a href="https://github.com/amazon-science/hallucination-benchmark-trivialplus">TRIVIA+</a> (ACL 2026, first author): long-context RAG benchmark for hallucination detection</li>
+        <li>Co-organizer, <a href="{{ '/workshop/' | relative_url }}">Workshop on Agent Skills</a> (ACM CAIS 2026)</li>
+      </ul>
+      <div class="interest-tags">
+        <span class="tag">Agent Evaluation</span>
+        <span class="tag">Benchmarks</span>
+        <span class="tag">Agent Skills</span>
+        <span class="tag">Trustworthy AI</span>
+      </div>
+    </div>
   </div>
+</section>
+
+<section class="section">
+  <h2>Experience</h2>
+  <ul class="exp-list">
+    <li class="exp-item">
+      <div class="exp-head">
+        <span class="exp-org">Amazon</span>
+        <span class="exp-date">Jun 2024 - Present</span>
+      </div>
+      <div class="exp-role">Applied Scientist</div>
+      <ul class="exp-points">
+        <li><strong>LLM post-training for the Amazon Ads agent.</strong></li>
+      </ul>
+    </li>
+    <li class="exp-item">
+      <div class="exp-head">
+        <span class="exp-org">Georgia Institute of Technology</span>
+        <span class="exp-date">2024</span>
+      </div>
+      <div class="exp-role">Ph.D. in Machine Learning, <a href="https://www.ai4opt.org/">NSF AI Institute AI4OPT</a></div>
+      <ul class="exp-points">
+        <li>Learning to optimize, RL, and verification for real-time decisions in power grids and logistics, with industrial adoption.</li>
+      </ul>
+    </li>
+  </ul>
 </section>
 
 <section class="section">
   <h2>News</h2>
   <ul class="news-list">
     <li class="news-item">
+      <span class="news-date">Sep 2026</span>
+      <span class="news-text"><a href="https://arxiv.org/abs/2602.12670">SkillsBench</a> accepted at <strong>NeurIPS 2026</strong>.</span>
+    </li>
+    <li class="news-item">
+      <span class="news-date">Aug 2026</span>
+      <span class="news-text">Meta evaluates its new open agentic model <a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Muse Glimmer</a> on <a href="https://www.skillsbench.ai">SkillsBench</a>, joining Qwen and HY3 in adopting it as a core agentic benchmark.</span>
+    </li>
+    <li class="news-item">
       <span class="news-date">Jul 2026</span>
-      <span class="news-text"><a href="https://arxiv.org/pdf/2604.05172">ClawsBench</a> accepted at <strong>COLM 2026</strong> — a benchmark exposing how capable, and how unsafe, LLM productivity agents really are in realistic workspaces.</span>
+      <span class="news-text"><a href="https://arxiv.org/pdf/2604.05172">ClawsBench</a> accepted at <strong>COLM 2026</strong>: a benchmark exposing how capable, and how unsafe, LLM productivity agents really are in realistic workspaces.</span>
     </li>
     <li class="news-item">
       <span class="news-date">Jun 2026</span>
-      <span class="news-text"><a href="https://arxiv.org/pdf/2606.12935">MARS</a> released — a principled risk-controlled early-stopping rule for parallel LLM test-time scaling: 25–47% fewer tokens, full-budget accuracy.</span>
+      <span class="news-text"><a href="https://arxiv.org/pdf/2606.12935">MARS</a> released: a principled risk-controlled early-stopping rule for parallel LLM test-time scaling: 25–47% fewer tokens, full-budget accuracy.</span>
     </li>
     <li class="news-item">
       <span class="news-date">May 2026</span>
@@ -69,123 +135,150 @@ title: Home
     </li>
     <li class="news-item">
       <span class="news-date">Feb 2026</span>
-      <span class="news-text"><a href="https://arxiv.org/abs/2602.12670">SkillsBench</a> released — benchmarking agent skills across diverse tasks.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Jul 2025</span>
-      <span class="news-text"><a href="https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0672">"Outbound Load Planning in Parcel Delivery Service Networks"</a> accepted in <strong>INFORMS Transportation Science</strong>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Oct 2025</span>
-      <span class="news-text"><a href="https://arxiv.org/pdf/2401.03692">"Boosting Column Generation with GNNs for Joint Rider Trip Planning and Crew Shift Scheduling"</a> published in <strong>Transportation Research Part E</strong>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Jun 2024</span>
-      <span class="news-text">Joined Amazon as an Applied Scientist, working on LLM Agents and Trustworthy AI.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">May 2024</span>
-      <span class="news-text"><a href="https://arxiv.org/pdf/2405.21023">"Compact Optimality Verification for Optimization Proxies"</a> accepted at <strong>ICML 2024</strong>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Apr 2024</span>
-      <span class="news-text">Defended my PhD thesis! <a href="https://www.ai4opt.org/news-events/wenbo-chens-phd-defense-ai-optimized-real-time-risk-assessment-power-systems">News</a>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Mar 2024</span>
-      <span class="news-text">Research highlighted in <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.12146">AI Magazine</a> (NSF's National AI Institutes).</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Feb 2024</span>
-      <span class="news-text">Invited talk at <a href="https://events.rice.edu/event/357200-cmor-colloquium-series-wenbo-chen-georgia">Rice University CMOR Colloquium Series</a>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Jan 2024</span>
-      <span class="news-text">Won VNN-COMP'23 Award for outstanding benchmark.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Nov 2023</span>
-      <span class="news-text">Awarded Anderson-Interface Fellowship for Excellence in Research (Energy & Sustainable Systems).</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Sep 2023</span>
-      <span class="news-text">Two papers accepted in <strong>IEEE Transactions on Power Systems</strong>. <a href="https://arxiv.org/pdf/2304.11726">Paper</a> and <a href="https://arxiv.org/pdf/2301.08840">Paper</a>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Jul 2023</span>
-      <span class="news-text">One paper accepted in <strong>IEEE Transactions on Power Systems</strong>. <a href="https://arxiv.org/pdf/2211.15755">Paper</a>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">May 2023</span>
-      <span class="news-text">Won thesis pitch competition (ML & manufacturing track) at <a href="https://www.ai4opt.org/news-events/wenbo-chen-wins-thesis-pitch-competition-ml-and-manufacturing">IISE Annual Meeting 2023</a>!</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">May 2023</span>
-      <span class="news-text">Invited presentation: End-to-End Learning and Optimization thrust for <a href="https://www.ai4opt.org/news-events/ai4opt-holds-meeting-eab-discuss-latest-research-developments">AI4OPT External Advisory Board</a>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Apr 2023</span>
-      <span class="news-text">Invited presentation: "End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch" at <a href="https://meetings.informs.org/wordpress/phoenix2023/">INFORMS Annual Meeting 2023</a>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Mar 2023</span>
-      <span class="news-text">Invited presentation: "Confidence-Aware GNNs for Learning Reliability Assessment Commitments" at <a href="https://www.iise.org/Annual/">IISE Annual Meeting 2023</a>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Mar 2023</span>
-      <span class="news-text">Featured in <a href="https://www.ai4opt.org/sites/default/files/newsletter/march-2023.pdf">NSF AI4OPT newsletter</a> student highlights.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Jan 2023</span>
-      <span class="news-text">Attended <a href="https://web.cvent.com/event/e157468f-6e59-4b53-8a23-3874fe4ed31e/summary">2023 Grid Science Winter School and Conference</a>.</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Oct 2022</span>
-      <span class="news-text">Invited presentation: "Learning Optimization Proxies for Large-Scale Security-Constrained Economic Dispatch" at <a href="https://meetings.informs.org/wordpress/indianapolis2022/">INFORMS Annual Meeting 2022</a>.</span>
+      <span class="news-text"><a href="https://arxiv.org/abs/2602.12670">SkillsBench</a> released: benchmarking agent skills across diverse tasks.</span>
     </li>
   </ul>
+  <details class="news-older">
+    <summary>Older news</summary>
+    <ul class="news-list">
+      <li class="news-item">
+        <span class="news-date">Oct 2025</span>
+        <span class="news-text"><a href="https://arxiv.org/pdf/2401.03692">"Boosting Column Generation with GNNs for Joint Rider Trip Planning and Crew Shift Scheduling"</a> published in <strong>Transportation Research Part E</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jul 2025</span>
+        <span class="news-text"><a href="https://pubsonline.informs.org/doi/abs/10.1287/trsc.2024.0672">"Outbound Load Planning in Parcel Delivery Service Networks"</a> accepted in <strong>INFORMS Transportation Science</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jun 2024</span>
+        <span class="news-text">Joined Amazon as an Applied Scientist, working on LLM Agents and Trustworthy AI.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">May 2024</span>
+        <span class="news-text"><a href="https://arxiv.org/pdf/2405.21023">"Compact Optimality Verification for Optimization Proxies"</a> accepted at <strong>ICML 2024</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Apr 2024</span>
+        <span class="news-text">Defended my PhD thesis! <a href="https://www.ai4opt.org/news-events/wenbo-chens-phd-defense-ai-optimized-real-time-risk-assessment-power-systems">News</a>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Mar 2024</span>
+        <span class="news-text">Research highlighted in <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.12146">AI Magazine</a> (NSF's National AI Institutes).</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Feb 2024</span>
+        <span class="news-text">Invited talk at <a href="https://events.rice.edu/event/357200-cmor-colloquium-series-wenbo-chen-georgia">Rice University CMOR Colloquium Series</a>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jan 2024</span>
+        <span class="news-text">Won VNN-COMP'23 Award for outstanding benchmark.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Nov 2023</span>
+        <span class="news-text">Awarded Anderson-Interface Fellowship for Excellence in Research (Energy & Sustainable Systems).</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Sep 2023</span>
+        <span class="news-text">Two papers accepted in <strong>IEEE Transactions on Power Systems</strong>. <a href="https://arxiv.org/pdf/2304.11726">Paper</a> and <a href="https://arxiv.org/pdf/2301.08840">Paper</a>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jul 2023</span>
+        <span class="news-text">One paper accepted in <strong>IEEE Transactions on Power Systems</strong>. <a href="https://arxiv.org/pdf/2211.15755">Paper</a>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">May 2023</span>
+        <span class="news-text">Won thesis pitch competition (ML & manufacturing track) at <a href="https://www.ai4opt.org/news-events/wenbo-chen-wins-thesis-pitch-competition-ml-and-manufacturing">IISE Annual Meeting 2023</a>!</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">May 2023</span>
+        <span class="news-text">Invited presentation: End-to-End Learning and Optimization thrust for <a href="https://www.ai4opt.org/news-events/ai4opt-holds-meeting-eab-discuss-latest-research-developments">AI4OPT External Advisory Board</a>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Apr 2023</span>
+        <span class="news-text">Invited presentation: "End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch" at <a href="https://meetings.informs.org/wordpress/phoenix2023/">INFORMS Annual Meeting 2023</a>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Mar 2023</span>
+        <span class="news-text">Invited presentation: "Confidence-Aware GNNs for Learning Reliability Assessment Commitments" at <a href="https://www.iise.org/Annual/">IISE Annual Meeting 2023</a>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Mar 2023</span>
+        <span class="news-text">Featured in <a href="https://www.ai4opt.org/sites/default/files/newsletter/march-2023.pdf">NSF AI4OPT newsletter</a> student highlights.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jan 2023</span>
+        <span class="news-text">Attended <a href="https://web.cvent.com/event/e157468f-6e59-4b53-8a23-3874fe4ed31e/summary">2023 Grid Science Winter School and Conference</a>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Oct 2022</span>
+        <span class="news-text">Invited presentation: "Learning Optimization Proxies for Large-Scale Security-Constrained Economic Dispatch" at <a href="https://meetings.informs.org/wordpress/indianapolis2022/">INFORMS Annual Meeting 2022</a>.</span>
+      </li>
+    </ul>
+  </details>
 </section>
 
 <section class="section">
   <h2>Selected Publications</h2>
+
+  <h3 class="pub-group">LLM &amp; Agent Evaluation</h3>
   <ul class="pub-list">
-    <li class="pub-item">
-      <div class="pub-title">MARS: Margin-Adversarial Risk-controlled Stopping for Parallel LLM Test-time Scaling</div>
-      <div class="pub-authors"><span class="me">W. Chen</span>, P. Li, M. Liu, W. Su, T. Xie</div>
-      <div class="pub-venue">Preprint, 2026</div>
-      <div class="pub-links"><a href="https://arxiv.org/pdf/2606.12935">Paper</a></div>
+    <li class="pub-item pub-featured">
+      <img class="pub-thumb" src="{{ '/assets/img/pubs/skillsbench.jpg' | relative_url }}" alt="SkillsBench pipeline: benchmark construction, quality filtering, and paired evaluation" loading="lazy">
+      <div class="pub-body">
+        <div class="pub-title">SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks</div>
+        <div class="pub-authors">X. Li*, Y. Liu*, <span class="me">W. Chen*</span>, B. You*, et al. <span class="pub-note">(*co-first authors)</span></div>
+        <div class="pub-venue">NeurIPS 2026</div>
+        <p class="pub-tldr">87 expert tasks with deterministic verifiers and paired with/without-skill runs: curated skills lift agent pass rates by +16.6 pp, and focused skills beat exhaustive ones.</p>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2602.12670">Paper</a> <a href="https://www.skillsbench.ai">Website</a> <a href="https://github.com/benchflow-ai/skillsbench">Code</a></div>
+        <div class="pub-award">Adopted by Meta Muse Glimmer, Qwen, HY3</div>
+      </div>
     </li>
-    <li class="pub-item">
-      <div class="pub-title">Rethinking Evaluation for LLM Hallucination Detection</div>
-      <div class="pub-authors"><span class="me">W. Chen</span>, V. Padmanabhan, T. Giyahchi, E. Wong, L. Akoglu</div>
-      <div class="pub-venue">ACL 2026</div>
-      <div class="pub-links"><a href="https://arxiv.org/pdf/2605.11330">Paper</a></div>
+    <li class="pub-item pub-featured">
+      <img class="pub-thumb" src="{{ '/assets/img/pubs/clawsbench.jpg' | relative_url }}" alt="ClawsBench architecture: agent harness interacting with mock Gmail, Calendar, Docs, Drive, and Slack" loading="lazy">
+      <div class="pub-body">
+        <div class="pub-title">ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces</div>
+        <div class="pub-authors">X. Li, K.W. Choe, Y. Liu, X. Chen, C. Tao, B. You, <span class="me">W. Chen</span>, et al.</div>
+        <div class="pub-venue">COLM 2026</div>
+        <p class="pub-tldr">Stateful mock Gmail, Slack, Calendar, Docs, and Drive: top agents succeed on 39-64% of tasks yet take unsafe actions 7-33% of the time.</p>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2604.05172">Paper</a> <a href="https://clawsbench.benchflow.ai/">Website</a> <a href="https://github.com/benchflow-ai/ClawsBench">Code</a></div>
+      </div>
     </li>
-    <li class="pub-item">
-      <div class="pub-title">Latent Spherical Flow Policy for RL with Combinatorial Actions</div>
-      <div class="pub-authors">L. Kong, A. Satish, H. Jiang, A. Kangaslahti, A. Ma, <span class="me">W. Chen</span>, et al.</div>
-      <div class="pub-venue">ICML 2026 (Spotlight)</div>
-      <div class="pub-links"><a href="https://arxiv.org/pdf/2601.22211">Paper</a></div>
-      <div class="pub-award">Spotlight</div>
-    </li>
-    <li class="pub-item">
-      <div class="pub-title">SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks</div>
-      <div class="pub-authors">X. Li, <span class="me">W. Chen</span>, Y. Liu, et al.</div>
-      <div class="pub-venue">Preprint, 2026</div>
-      <div class="pub-links"><a href="https://arxiv.org/abs/2602.12670">Paper</a></div>
-    </li>
-    <li class="pub-item">
-      <div class="pub-title">Compact Optimality Verification for Optimization Proxies</div>
-      <div class="pub-authors"><span class="me">W. Chen</span>, H. Zhao, M. Tanneau, P. Van Hentenryck</div>
-      <div class="pub-venue">ICML 2024</div>
-      <div class="pub-links"><a href="https://arxiv.org/pdf/2405.21023">Paper</a></div>
-    </li>
-    <li class="pub-item">
-      <div class="pub-title">End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch</div>
-      <div class="pub-authors"><span class="me">W. Chen</span>, M. Tanneau, P. Van Hentenryck</div>
-      <div class="pub-venue">IEEE Transactions on Power Systems, 2023</div>
-      <div class="pub-links"><a href="https://arxiv.org/pdf/2304.11726">Paper</a></div>
+    <li class="pub-item pub-featured">
+      <img class="pub-thumb" src="{{ '/assets/img/pubs/hallucination.jpg' | relative_url }}" alt="TRIVIA+ multi-stage human annotation pipeline" loading="lazy">
+      <div class="pub-body">
+        <div class="pub-title">Rethinking Evaluation for LLM Hallucination Detection</div>
+        <div class="pub-authors"><span class="me">W. Chen</span>, V. Padmanabhan, T. Giyahchi, E. Wong, L. Akoglu</div>
+        <div class="pub-venue">ACL 2026</div>
+        <p class="pub-tldr">A desiderata for hallucination benchmarks and TRIVIA+, a long-context RAG benchmark with realistic label noise; LLM-as-a-Judge stays competitive.</p>
+        <div class="pub-links"><a href="https://arxiv.org/pdf/2605.11330">Paper</a> <a href="https://github.com/amazon-science/hallucination-benchmark-trivialplus">Code &amp; Data</a></div>
+      </div>
     </li>
   </ul>
-  <p style="margin-top: 1rem;"><a href="{{ '/publications/' | relative_url }}">View all publications →</a></p>
+
+  <h3 class="pub-group">RL &amp; LLM Reasoning</h3>
+  <ul class="pub-list">
+    <li class="pub-item pub-featured">
+      <img class="pub-thumb" src="{{ '/assets/img/pubs/mars.jpg' | relative_url }}" alt="MARS token savings across models and benchmarks, and an example stopping trace" loading="lazy">
+      <div class="pub-body">
+        <div class="pub-title">MARS: Margin-Adversarial Risk-controlled Stopping for Parallel LLM Test-time Scaling</div>
+        <div class="pub-authors"><span class="me">W. Chen</span>, P. Li, M. Liu, W. Su, T. Xie</div>
+        <div class="pub-venue">Preprint, 2026</div>
+        <p class="pub-tldr">Stop parallel reasoning early once the majority vote is provably safe: 25-47% fewer self-consistency tokens at full-budget accuracy.</p>
+        <div class="pub-links"><a href="https://arxiv.org/pdf/2606.12935">Paper</a> <a href="https://github.com/Wenbo11/MARS">Code</a></div>
+      </div>
+    </li>
+    <li class="pub-item pub-featured">
+      <img class="pub-thumb" src="{{ '/assets/img/pubs/lsflow.jpg' | relative_url }}" alt="LSFlow: spherical flow policy with a combinatorial optimization solver" loading="lazy">
+      <div class="pub-body">
+        <div class="pub-title">Latent Spherical Flow Policy for RL with Combinatorial Actions</div>
+        <div class="pub-authors">L. Kong, A. Satish, H. Jiang, A. Kangaslahti, A. Ma, <span class="me">W. Chen</span>, et al.</div>
+        <div class="pub-venue">ICML 2026 (Spotlight)</div>
+        <p class="pub-tldr">A stochastic flow-matching policy in latent space, with a solver guaranteeing feasible actions: +20.6% over state-of-the-art combinatorial RL.</p>
+        <div class="pub-links"><a href="https://arxiv.org/pdf/2601.22211">Paper</a></div>
+        <div class="pub-award">Spotlight</div>
+      </div>
+    </li>
+  </ul>
+
+  <p style="margin-top: 1rem;"><a href="{{ '/publications/' | relative_url }}">All publications, including decision making &amp; optimization &rarr;</a></p>
 </section>

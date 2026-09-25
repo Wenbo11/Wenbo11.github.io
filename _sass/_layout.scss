@@ -37,6 +37,7 @@
 }
 
 .site-title {
+  white-space: nowrap;
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--color-heading);
@@ -49,6 +50,7 @@
 
 .site-nav {
   display: flex;
+  align-items: center;
   gap: 1.75rem;
 
   a {
@@ -60,6 +62,22 @@
     &:hover, &.active {
       color: var(--color-accent);
     }
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    height: auto;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .site-nav {
+    gap: 1.25rem;
   }
 }
 

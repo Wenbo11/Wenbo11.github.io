@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Wenbo Chen
+
+> Applied Scientist at Amazon working on LLM post-training for the Amazon Ads agent.
+> Researcher in LLM and AI agent evaluation, reinforcement learning, and LLM test-time scaling.
+> ML PhD, Georgia Tech (NSF AI Institute AI4OPT), advised by Pascal Van Hentenryck.
+
+## Expertise
+
+- LLM post-training (industry): post-training LLMs for the Amazon Ads agent at Amazon (2024 - present).
+- LLM and agent evaluation: benchmark design, verifiers, agent skills, agent safety, hallucination detection.
+- Reinforcement learning and LLM reasoning: combinatorial RL, parallel test-time scaling.
+- Data-driven decision making and optimization (PhD work, industrial adoption).
+
+## Selected work
+
+- [SkillsBench](https://arxiv.org/abs/2602.12670) (NeurIPS 2026, co-first author): benchmark for how well agent skills work across 87 expert tasks. Adopted as an agentic evaluation by Meta (Muse Glimmer), Qwen, and Tencent HY3. Website: https://www.skillsbench.ai Code: https://github.com/benchflow-ai/skillsbench
+- [ClawsBench](https://arxiv.org/abs/2604.05172) (COLM 2026): capability and safety of LLM productivity agents in simulated workspaces. Website: https://clawsbench.benchflow.ai/
+- [Rethinking Evaluation for LLM Hallucination Detection](https://arxiv.org/pdf/2605.11330) (ACL 2026, first author): introduces TRIVIA+, a long-context RAG hallucination detection benchmark with realistic label noise. Code and data: https://github.com/amazon-science/hallucination-benchmark-trivialplus
+- [MARS](https://arxiv.org/pdf/2606.12935): risk-controlled early stopping for parallel LLM test-time scaling, 25-47% fewer tokens at full-budget accuracy. Code: https://github.com/Wenbo11/MARS
+- [Latent Spherical Flow Policy for RL with Combinatorial Actions](https://arxiv.org/pdf/2601.22211) (ICML 2026 Spotlight).
+- Co-organizer, First Workshop on Agent Skills, ACM CAIS 2026.
+
+## Links
+
+- Homepage: {{ site.url }}
+- Publications: {{ site.url }}/publications/
+- Google Scholar: {{ site.author.google_scholar }}
+- GitHub: https://github.com/{{ site.author.github }}
+- LinkedIn: https://www.linkedin.com/in/{{ site.author.linkedin }}
+- Email: {{ site.author.email }}

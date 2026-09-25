@@ -42,6 +42,12 @@
     font-weight: 600;
     color: var(--color-text);
   }
+
+  .pub-note {
+    font-size: 0.8rem;
+    font-style: italic;
+    white-space: nowrap;
+  }
 }
 
 .pub-venue {
@@ -81,4 +87,54 @@
   color: #92400e;
   border-radius: 4px;
   margin-top: 0.4rem;
+}
+
+.pub-group {
+  margin: 1.5rem 0 0.25rem;
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pub-tldr {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  margin-bottom: 0.6rem;
+}
+
+.pub-featured {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.pub-thumb {
+  flex: 0 0 200px;
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+  padding: 0.35rem;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .pub-featured {
+    flex-direction: column;
+  }
+
+  .pub-thumb {
+    flex-basis: auto;
+    width: 100%;
+    height: 180px;
+  }
 }

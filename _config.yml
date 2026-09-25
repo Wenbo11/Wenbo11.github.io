@@ -1,6 +1,7 @@
 # Site settings
 title: Wenbo Chen
-description: "Applied Scientist at Amazon | AI Agents & Data-Driven Decision Making"
+tagline: "LLM Post-Training & Evaluation for AI Agents"
+description: "Wenbo Chen is an Applied Scientist at Amazon working on LLM post-training for the Amazon Ads agent, and a researcher in LLM and agent evaluation (SkillsBench, NeurIPS 2026; ClawsBench, COLM 2026), reinforcement learning, and test-time scaling. ML PhD, Georgia Tech."
 url: https://wenbo11.github.io
 baseurl: ""
 
@@ -14,6 +15,19 @@ author:
   github: Wenbo11
   linkedin: wenbo-chen
   twitter: wenbochen8
+
+# SEO / social cards (jekyll-seo-tag)
+image: /assets/img/profile.jpg
+twitter:
+  username: wenbochen8
+  card: summary
+social:
+  name: Wenbo Chen
+  links:
+    - https://scholar.google.com/citations?hl=en&user=T8XT0OAAAAAJ
+    - https://github.com/Wenbo11
+    - https://www.linkedin.com/in/wenbo-chen
+    - https://twitter.com/wenbochen8
 
 # Analytics / visitor counter (GoatCounter)
 # Sign up free at https://www.goatcounter.com/, then put your code here.
