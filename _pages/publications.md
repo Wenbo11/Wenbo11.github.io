@@ -40,6 +40,16 @@ permalink: /publications/
 </li>
 
 <li class="pub-item">
+  <div class="pub-title">BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure</div>
+  <div class="pub-authors">S. Zheng, Z. Di, Y. Liu, K.W. Choe, J. Sun, H. Lin, P. Jiang, Y. He, X. Cheng, J. Wang, <span class="me">W. Chen</span>, A. Yates, et al.</div>
+  <div class="pub-venue">Preprint, 2026</div>
+  <p class="pub-tldr">Reward-integrity layer for agent benchmarks: static taint analysis finds hacking paths before a run, and runtime evidence detects hacking at 96% accuracy across 31k+ runs on SkillsBench, ClawsBench, and Terminal-Bench 3.</p>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2609.11028">Paper</a>
+  </div>
+</li>
+
+<li class="pub-item">
   <div class="pub-title">Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights</div>
   <div class="pub-authors"><span class="me">W. Chen</span>, V. Padmanabhan, T. Giyahchi, E. Wong, L. Akoglu</div>
   <div class="pub-venue">ACL 2026 (Main Conference)</div>

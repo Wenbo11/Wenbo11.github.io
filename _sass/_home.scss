@@ -259,18 +259,9 @@
 
 .news-list {
   list-style: none;
-}
-
-.news-older {
-  margin-top: 0.5rem;
-
-  summary {
-    cursor: pointer;
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: var(--color-accent);
-    padding: 0.5rem 0;
-  }
+  max-height: 340px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
 }
 
 .news-item {

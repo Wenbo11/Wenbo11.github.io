@@ -9,6 +9,37 @@
   </div>
 </footer>
 
+<dialog class="figure-lightbox" id="figure-lightbox" aria-label="Figure preview">
+  <img alt="">
+  <p></p>
+</dialog>
+<script>
+  // Click (or Enter/Space on) a publication thumbnail to view the figure full size.
+  (function () {
+    var box = document.getElementById('figure-lightbox');
+    var thumbs = document.querySelectorAll('.pub-thumb');
+    if (!box || !box.showModal || !thumbs.length) return;
+    var img = box.querySelector('img');
+    var caption = box.querySelector('p');
+    function open(t) {
+      img.src = t.currentSrc || t.src;
+      img.alt = t.alt;
+      caption.textContent = t.alt;
+      box.showModal();
+    }
+    thumbs.forEach(function (t) {
+      t.tabIndex = 0;
+      t.setAttribute('role', 'button');
+      t.title = 'Click to enlarge';
+      t.addEventListener('click', function () { open(t); });
+      t.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(t); }
+      });
+    });
+    box.addEventListener('click', function () { box.close(); });
+  })();
+</script>
+
 {%- if site.goatcounter and site.goatcounter != "" %}
 <script>
   // Fetch the total pageview count from GoatCounter and show it in the footer.
