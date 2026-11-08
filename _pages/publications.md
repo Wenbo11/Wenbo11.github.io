@@ -40,6 +40,18 @@ permalink: /publications/
 </li>
 
 <li class="pub-item">
+  <div class="pub-title">FrontierPhysics: Evaluating Agents for End-to-End Physics Research</div>
+  <div class="pub-authors">B. You, W. Ke, R. Rosenauer, B. Liu, <span class="me">W. Chen</span> (core contributor), M. Chen, S. Xu, et al. (72 authors)</div>
+  <div class="pub-venue">Preprint, 2026</div>
+  <p class="pub-tldr">56 end-to-end research tasks drawn from 42 physicists' own projects across 9 domains, graded by deterministic verifiers plus expert rubrics for whether the research is correct and publishable. Across 22 models in 26 configurations, the best agent (Claude Opus 5.5) passes 27.4%; agents fail mainly on rigor and expert intuition, not physics knowledge. Coming to Artificial Analysis.</p>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2611.06910">Paper</a>
+    <a href="https://www.benchflow.ai/frontierphysics">Website</a>
+    <a href="https://x.com/xdotli/status/2118420819097575553">Announcement</a>
+  </div>
+</li>
+
+<li class="pub-item">
   <div class="pub-title">BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure</div>
   <div class="pub-authors">S. Zheng, Z. Di, Y. Liu, K.W. Choe, J. Sun, H. Lin, P. Jiang, Y. He, X. Cheng, J. Wang, <span class="me">W. Chen</span>, A. Yates, et al.</div>
   <div class="pub-venue">Preprint, 2026</div>
@@ -64,7 +76,7 @@ permalink: /publications/
 </div>
 
 <div class="pub-section">
-<h3>RL &amp; LLM Reasoning</h3>
+<h3>LLM Post-Training, RL &amp; Reasoning</h3>
 <ul class="pub-list">
 
 <li class="pub-item">
@@ -79,6 +91,18 @@ permalink: /publications/
 </li>
 
 <li class="pub-item">
+  <div class="pub-title">ATTUNE: Agentic Throughput Tuning for LLM Training</div>
+  <div class="pub-authors">L. Fan, H. Wang, <span class="me">W. Chen</span>, J. Liu, X. Li, X. Wang, R. Wen, Y. Yan, H. Wu, Y. Li, Q. Qu, Z. Wang, B. Dumoulin</div>
+  <div class="pub-venue">Preprint, 2026</div>
+  <p class="pub-tldr">A coding agent tunes a working training recipe one setting at a time, carries lessons across campaigns, and ships only through a correctness gate. Deployed in Amazon Ads post-training, it raises per-GPU throughput 1.7x on average (up to 3.9x) over expert-tuned recipes, 7-26% on NVIDIA's benchmark recipes, and up to 2.6x on held-out public recipes, beating Bayesian optimization, random search, and OptiCo at the same budget.</p>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2610.17528">Paper</a>
+    <a href="https://github.com/amazon-science/attune">Code</a>
+    <a href="https://openrecipes.ai">OpenRecipes Leaderboard</a>
+  </div>
+</li>
+
+<li class="pub-item">
   <div class="pub-title">Latent Spherical Flow Policy for Reinforcement Learning with Combinatorial Actions</div>
   <div class="pub-authors">L. Kong, A. Satish, H. Jiang, A. Kangaslahti, A. Ma, <span class="me">W. Chen</span>, M. Song, L. Xu, et al.</div>
   <div class="pub-venue">ICML 2026 (Spotlight)</div>
@@ -87,6 +111,16 @@ permalink: /publications/
     <a href="https://arxiv.org/pdf/2601.22211">Paper</a>
   </div>
   <div class="pub-award">Spotlight</div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Structured Prompt Optimization Meets Reinforcement Learning for Global and Local Interpretability over Complex Text</div>
+  <div class="pub-authors">T. Zhou, <span class="me">W. Chen</span>, P.J. Liang, L. Akoglu</div>
+  <div class="pub-venue">Preprint, 2026</div>
+  <p class="pub-tldr">eXTC learns a natural-language rulebook by structured prompt optimization, distills rulebook-grounded reasoning into a compact LM, then extends it with RL: the best classification and explanation quality on legal, peer-review, and clinical text.</p>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2605.29076">Paper</a>
+  </div>
 </li>
 
 <li class="pub-item">
@@ -112,7 +146,7 @@ permalink: /publications/
 </div>
 
 <div class="pub-section">
-<h3>Data-Driven Decision Making &amp; Earlier Work</h3>
+<h3>Data-Driven Decision Making</h3>
 <ul class="pub-list">
 
 <li class="pub-item">

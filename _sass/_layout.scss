@@ -112,7 +112,8 @@
 .visitor-count {
   white-space: nowrap;
 
-  #visitor-count:empty {
+  // Hide the separator too when the count fails to load (e.g. blocked by an ad blocker).
+  &:has(#visitor-count:empty) {
     display: none;
   }
 }

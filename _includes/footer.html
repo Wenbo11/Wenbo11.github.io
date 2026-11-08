@@ -14,10 +14,10 @@
   <p></p>
 </dialog>
 <script>
-  // Click (or Enter/Space on) a publication thumbnail to view the figure full size.
+  // Click (or Enter/Space on) a publication thumbnail or homepage project figure to view it full size.
   (function () {
     var box = document.getElementById('figure-lightbox');
-    var thumbs = document.querySelectorAll('.pub-thumb');
+    var thumbs = document.querySelectorAll('.pub-thumb, .home-proj-fig img');
     if (!box || !box.showModal || !thumbs.length) return;
     var img = box.querySelector('img');
     var caption = box.querySelector('p');

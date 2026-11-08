@@ -19,9 +19,12 @@ permalink: /llms.txt
 
 - [SkillsBench](https://arxiv.org/abs/2602.12670) (NeurIPS 2026, co-first author): benchmark for how well agent skills work across 87 expert tasks. Adopted as an agentic evaluation by Meta (Muse Glimmer), Qwen, and Tencent HY3. Website: https://www.skillsbench.ai Code: https://github.com/benchflow-ai/skillsbench
 - [ClawsBench](https://arxiv.org/abs/2604.05172) (COLM 2026): capability and safety of LLM productivity agents in simulated workspaces. Website: https://clawsbench.benchflow.ai/
+- [FrontierPhysics](https://arxiv.org/abs/2611.06910) (core contributor): benchmark of 56 end-to-end physics research tasks across 9 domains, written by 42 physicists from 26 institutions and graded by deterministic verifiers plus expert rubrics. Across 22 models in 26 configurations, the best agent (Claude Opus 5.5) passes 27.4%. Coming to Artificial Analysis. Website: https://www.benchflow.ai/frontierphysics
 - [BenchShield](https://arxiv.org/pdf/2609.11028): formal-model-backed instrumentation for reward integrity in LLM-agent benchmarks; detects reward hacking with 96% accuracy across 31k+ runs on SkillsBench, ClawsBench, and Terminal-Bench 3.
 - [Rethinking Evaluation for LLM Hallucination Detection](https://arxiv.org/pdf/2605.11330) (ACL 2026, first author): introduces TRIVIA+, a long-context RAG hallucination detection benchmark with realistic label noise. Code and data: https://github.com/amazon-science/hallucination-benchmark-trivialplus
 - [MARS](https://arxiv.org/pdf/2606.12935): risk-controlled early stopping for parallel LLM test-time scaling, 25-47% fewer tokens at full-budget accuracy. Code: https://github.com/Wenbo11/MARS
+- [ATTUNE](https://arxiv.org/abs/2610.17528): a coding agent that tunes LLM training recipes behind a correctness gate. Deployed in Amazon Ads production post-training: 1.7x average (up to 3.9x) per-GPU throughput over expert-tuned recipes, 7-26% on NVIDIA benchmark recipes, up to 2.6x on held-out public recipes. Code: https://github.com/amazon-science/attune Leaderboard: https://openrecipes.ai
+- [eXTC](https://arxiv.org/pdf/2605.29076): structured prompt optimization, reasoning distillation, and RL for interpretable LLM text classification.
 - [Latent Spherical Flow Policy for RL with Combinatorial Actions](https://arxiv.org/pdf/2601.22211) (ICML 2026 Spotlight).
 - Co-organizer, First Workshop on Agent Skills, ACM CAIS 2026.
 
