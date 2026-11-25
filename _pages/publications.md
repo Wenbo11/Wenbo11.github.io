@@ -43,11 +43,12 @@ permalink: /publications/
   <div class="pub-title">FrontierPhysics: Evaluating Agents for End-to-End Physics Research</div>
   <div class="pub-authors">B. You, W. Ke, R. Rosenauer, B. Liu, <span class="me">W. Chen</span> (core contributor), M. Chen, S. Xu, et al. (72 authors)</div>
   <div class="pub-venue">Preprint, 2026</div>
-  <p class="pub-tldr">56 end-to-end research tasks drawn from 42 physicists' own projects across 9 domains, graded by deterministic verifiers plus expert rubrics for whether the research is correct and publishable. Across 22 models in 26 configurations, the best agent (Claude Opus 5.5) passes 27.4%; agents fail mainly on rigor and expert intuition, not physics knowledge. Coming to Artificial Analysis.</p>
+  <p class="pub-tldr">56 end-to-end research tasks drawn from 42 physicists' own projects across 9 domains, graded by deterministic verifiers plus expert rubrics for whether the research is correct and publishable. Across 22 models in 26 configurations, the best agent (Claude Opus 5.5) passes 27.4%; agents fail mainly on rigor and expert intuition, not physics knowledge. Now on the Artificial Analysis leaderboard.</p>
   <div class="pub-links">
     <a href="https://arxiv.org/pdf/2611.06910">Paper</a>
     <a href="https://www.benchflow.ai/frontierphysics">Website</a>
     <a href="https://x.com/xdotli/status/2118420819097575553">Announcement</a>
+    <a href="https://artificialanalysis.ai/evaluations/frontierphysics">Artificial Analysis</a>
   </div>
 </li>
 
@@ -99,6 +100,17 @@ permalink: /publications/
     <a href="https://arxiv.org/pdf/2610.17528">Paper</a>
     <a href="https://github.com/amazon-science/attune">Code</a>
     <a href="https://openrecipes.ai">OpenRecipes Leaderboard</a>
+  </div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">CompoundingKernel: Self-Improving from Zero to First</div>
+  <div class="pub-authors">Q. Qu, H. Wang, <span class="me">W. Chen</span>, Y. Li, J. Liu, X. Li, X. Wang, R. Wen, L. Fan, Y. Yan, Z. Wang, B. Dumoulin</div>
+  <div class="pub-venue">Preprint, 2026</div>
+  <p class="pub-tldr">A self-improving agent system writes GPU kernels by search, starting from only PyTorch problem definitions: an external archive keeps every verified kernel and its lineage, and an LLM controller steers 1,000+ parallel agents. Its kernels rank #1 on the L1, L2, and Quantization boards of SOL-ExecBench (NVIDIA B200) as of 2026-11-11, 4.40x faster than the reference baseline.</p>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2611.19230">Paper</a>
+    <a href="https://huggingface.co/spaces/QianQu/CompoundingKernel-Explorer">Explorer</a>
   </div>
 </li>
 

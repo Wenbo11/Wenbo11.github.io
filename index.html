@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wenbo Chen
-description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-training and test-time scaling (Amazon Ads Agent, LSFlow, MARS), agent evaluation (SkillsBench, NeurIPS 2026; FrontierPhysics; ClawsBench), and infrastructure for fast training and honest grading (ATTUNE, BenchShield). ML PhD, Georgia Tech."
+description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-training and test-time scaling (Amazon Ads Agent, LSFlow, MARS), agent evaluation (SkillsBench, NeurIPS 2026; FrontierPhysics; ClawsBench), and agents that make training and GPU kernels faster (ATTUNE, CompoundingKernel). ML PhD, Georgia Tech."
 ---
 
 <div class="home">
@@ -17,7 +17,7 @@ description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-t
     </h1>
     <p class="home-lede">
       I'm a researcher at Amazon, post-training the LLMs behind <a class="home-nw" href="https://advertising.amazon.com/solutions/products/ads-agent">Amazon Ads Agent</a>.
-      I work on LLM agents end to end: post-training the model, building the benchmarks that measure it, and the infrastructure that makes training fast and grading honest.
+      I work on LLM agents end to end: post-training the model, building the benchmarks that measure it, and making the infrastructure fast.
     </p>
     <p class="home-lede">
       ML PhD from <a href="https://www.gatech.edu/">Georgia Tech</a> / <a href="https://www.ai4opt.org/">NSF AI4OPT</a> with <a href="https://sites.gatech.edu/pascal-van-hentenryck/">Pascal Van Hentenryck</a>, where my work on scalable data-driven decision making saw major industrial adoption.
@@ -36,7 +36,7 @@ description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-t
 
 <section class="home-section" id="work">
   <p class="home-kicker">What I work on</p>
-  <h2 class="home-h2">Agent, eval, infra</h2>
+  <h2 class="home-h2">Agent, Eval, Infra</h2>
   <p class="home-intro">
     A better agent needs a benchmark that can tell it is better, and infrastructure fast enough to try again.
     I work on all three, and every piece ships with a check.
@@ -46,7 +46,7 @@ description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-t
     <div class="home-pillar is-agent">
       <div class="home-pillar-head home-reveal">
         <span class="home-pillar-label"><span class="home-pillar-icon"><i class="fas fa-brain"></i></span>01 &middot; Agent</span>
-        <h3>Better training, cheaper reasoning.</h3>
+        <h3>Training agents, from RL to production.</h3>
       </div>
       <article class="home-proj home-reveal">
         <div class="home-proj-fig"><img src="{{ '/assets/img/pubs/adsagent.jpg' | relative_url }}" alt="Amazon Ads Agent: a conversational AI experience for advertisers" loading="lazy"></div>
@@ -86,7 +86,7 @@ description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-t
         <div class="home-proj-body">
           <h4 class="home-proj-title">FrontierPhysics <span class="home-proj-role">core contributor</span></h4>
           <p class="home-proj-text">Can agents do real physics research? 56 tasks from 42 physicists' own projects: the best agent passes 27.4%.</p>
-          <ul class="home-proof"><li><a href="https://x.com/xdotli/status/2118420819097575553"><i class="fas fa-chart-simple" aria-hidden="true"></i>Coming to Artificial Analysis</a></li></ul>
+          <ul class="home-proof"><li><a href="https://artificialanalysis.ai/evaluations/frontierphysics"><i class="fas fa-chart-simple" aria-hidden="true"></i>On Artificial Analysis</a></li></ul>
           <div class="home-proj-links"><a href="https://arxiv.org/pdf/2611.06910">Paper</a><a href="https://www.benchflow.ai/frontierphysics">Website</a></div>
         </div>
       </article>
@@ -94,7 +94,7 @@ description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-t
     <div class="home-pillar is-infra">
       <div class="home-pillar-head home-reveal">
         <span class="home-pillar-label"><span class="home-pillar-icon"><i class="fas fa-microchip"></i></span>03 &middot; Infra</span>
-        <h3>Fast to train, honest to grade.</h3>
+        <h3>Agents that make the stack faster.</h3>
       </div>
       <article class="home-proj home-reveal">
         <div class="home-proj-fig"><img src="{{ '/assets/img/pubs/attune.jpg' | relative_url }}" alt="ATTUNE architecture: a coding agent's diagnosis-driven search loop, deterministic correctness gates, an autonomous harness, durable state, and a self-evolving skill" loading="lazy"></div>
@@ -106,12 +106,12 @@ description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-t
         </div>
       </article>
       <article class="home-proj home-reveal">
-        <div class="home-proj-fig"><img src="{{ '/assets/img/pubs/benchshield.jpg' | relative_url }}" alt="BenchShield catching a Terminal-Bench 3 reward hack where submitted source disables Lean kernel checking" loading="lazy"></div>
+        <div class="home-proj-fig"><img src="{{ '/assets/img/pubs/compoundingkernel.jpg' | relative_url }}" alt="CompoundingKernel: rank 1 on the SOL-ExecBench L1, L2, and Quantization boards as of 2026-11-11, and one search's best speedup climbing to 27.36x over the run" loading="lazy"></div>
         <div class="home-proj-body">
-          <h4 class="home-proj-title">BenchShield</h4>
-          <p class="home-proj-text">Catching agents that game their tests: hacking paths found before a run, 96% detection across 31k+ runs.</p>
-          <ul class="home-proof"><li><a href="https://mp.weixin.qq.com/s/TidgNv92Wf1xF9EFF8Xg2A"><i class="fas fa-newspaper" aria-hidden="true"></i>机器之心</a></li></ul>
-          <div class="home-proj-links"><a href="https://arxiv.org/pdf/2609.11028">Paper</a></div>
+          <h4 class="home-proj-title">CompoundingKernel</h4>
+          <p class="home-proj-text">Agents write GPU kernels from scratch, building on every verified kernel so far: #1 on the L1, L2, and Quantization boards as of <span class="home-nw">Nov 11, 2026</span>.</p>
+          <ul class="home-proof"><li><span><i class="fas fa-trophy" aria-hidden="true"></i>#1 on SOL-ExecBench</span></li></ul>
+          <div class="home-proj-links"><a href="https://arxiv.org/pdf/2611.19230">Paper</a><a href="https://huggingface.co/spaces/QianQu/CompoundingKernel-Explorer">Explorer</a></div>
         </div>
       </article>
     </div>
@@ -119,8 +119,8 @@ description: "Wenbo Chen is a researcher at Amazon working on LLM agents: post-t
 
   <ul class="home-topics home-reveal" aria-label="Topics">
     <li class="is-agent">LLM Post-Training</li><li class="is-agent">Reinforcement Learning</li><li class="is-agent">Test-Time Scaling</li><li class="is-agent">Distillation</li>
-    <li class="is-eval">Agent Evaluation</li><li class="is-eval">Benchmarks</li><li class="is-eval">RL Environments</li><li class="is-eval">Hallucination Detection</li>
-    <li class="is-infra">Training Efficiency</li><li class="is-infra">Distributed Training</li><li class="is-infra">Reward Hacking</li>
+    <li class="is-eval">Agent Evaluation</li><li class="is-eval">Benchmarks</li><li class="is-eval">RL Environments</li><li class="is-eval">Hallucination Detection</li><li class="is-eval">Reward Hacking</li>
+    <li class="is-infra">Training Efficiency</li><li class="is-infra">Distributed Training</li><li class="is-infra">GPU Kernels</li>
   </ul>
   <a class="home-more" href="{{ '/publications/' | relative_url }}">More on post-training, test-time scaling, evaluation, and data-driven decision making &rarr;</a>
 </section>
